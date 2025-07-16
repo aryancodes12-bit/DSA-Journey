@@ -5,11 +5,11 @@ public class ReverseNumber {
         System.out.println("enter number");
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
-        int rev=0;
         while(n !=0){
+            int dig=n%10;
             n=n/10;
-            rev++;
+            System.out.println(dig);
         }
-        System.out.println(rev);
+
     }
 }
