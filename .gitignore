@@ -1,0 +1,11 @@
+# IntelliJ IDEA project files
+.idea/
+*.iml
+
+# Compiled Java output directory
+out/
+bin/
+
+# OS specific junk files
+.DS_Store
+Thumbs.db
