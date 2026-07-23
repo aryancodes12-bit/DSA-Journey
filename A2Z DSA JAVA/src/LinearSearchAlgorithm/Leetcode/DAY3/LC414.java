@@ -2,13 +2,26 @@ package LinearSearchAlgorithm.Leetcode.DAY3;
 
 public class LC414 {
     public int thirdMax(int[] nums) {
-int first =0;
-int second=0;
-int third=0;
-for (int i=0;i<nums.length;i++){
-    if(first=0 )
+Long first =null;
+Long second=null;
+Long third=null;
+for (Integer num:nums){
+    if(num.equals(first) || num.equals(second) || num.equals(third)){
+continue;
+    }
+    if (first == null || num > first) {
+        third = second;
+        second = first;
+        first = (long) num;
+    } else if (second == null || num > second) {
+        third = second;
+        second = (long) num;
+    } else if (third == null || num > third) {
+        third = (long) num;
+    }
 }
-        return 0;
+
+        return third == null ? first.intValue() : third.intValue();
     }
 
 
