@@ -1,6 +1,4 @@
-package LinearSearchAlgorithm.Leetcode;
-
-import java.util.Arrays;
+package LinearSearchAlgorithm.Leetcode.DAY3;
 
 public class LC754 {
     public int pivotIndex(int[] nums) {
