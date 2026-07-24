@@ -20,6 +20,7 @@ I aim to upload at least one code file daily to stay consistent.
 |  |
 | ------- |
 | [0268-missing-number](https://github.com/aryancodes12-bit/DSA-Journey/tree/master/0268-missing-number) |
+| [0283-move-zeroes](https://github.com/aryancodes12-bit/DSA-Journey/tree/master/0283-move-zeroes) |
 ## Hash Table
 |  |
 | ------- |
@@ -40,4 +41,8 @@ I aim to upload at least one code file daily to stay consistent.
 |  |
 | ------- |
 | [0268-missing-number](https://github.com/aryancodes12-bit/DSA-Journey/tree/master/0268-missing-number) |
+## Two Pointers
+|  |
+| ------- |
+| [0283-move-zeroes](https://github.com/aryancodes12-bit/DSA-Journey/tree/master/0283-move-zeroes) |
 <!---LeetCode Topics End-->
