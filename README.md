@@ -21,6 +21,7 @@ I aim to upload at least one code file daily to stay consistent.
 | ------- |
 | [0268-missing-number](https://github.com/aryancodes12-bit/DSA-Journey/tree/master/0268-missing-number) |
 | [0283-move-zeroes](https://github.com/aryancodes12-bit/DSA-Journey/tree/master/0283-move-zeroes) |
+| [0704-binary-search](https://github.com/aryancodes12-bit/DSA-Journey/tree/master/0704-binary-search) |
 ## Hash Table
 |  |
 | ------- |
@@ -33,6 +34,7 @@ I aim to upload at least one code file daily to stay consistent.
 |  |
 | ------- |
 | [0268-missing-number](https://github.com/aryancodes12-bit/DSA-Journey/tree/master/0268-missing-number) |
+| [0704-binary-search](https://github.com/aryancodes12-bit/DSA-Journey/tree/master/0704-binary-search) |
 ## Bit Manipulation
 |  |
 | ------- |
