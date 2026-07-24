@@ -1,3 +1,12 @@
+/*
+Problem   : 268. Missing Number
+Difficulty: Easy
+Topics    : N/A
+Link      : https://leetcode.com/problems/missing-number">268.
+Time      : O(?)
+Space     : O(?)
+*/
+
 class Solution {
         public int missingNumber(int[] nums) {
         int n =nums.length;

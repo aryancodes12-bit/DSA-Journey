@@ -1,0 +1,20 @@
+{
+  "source": "./",
+  "destination": "DSA_Paglu",
+  "language": "java",
+  "organization": "topic",
+  "fallbackFolder": "Uncategorized",
+  "naming": {
+    "pattern": "{id}-{slug}"
+  },
+  "autoCommit": true,
+  "autoPush": true,
+  "commitMessageTemplate": "Add LC{id} - {title}",
+  "readme": {
+    "generateRoot": true,
+    "generatePerProblem": true,
+    "includeExplanation": false,
+    "includeRuntime": true,
+    "includeMemory": false
+  }
+}
