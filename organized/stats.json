@@ -1,0 +1,18 @@
+{
+  "total": 1,
+  "easy": 1,
+  "medium": 0,
+  "hard": 0,
+  "currentStreak": 1,
+  "longestStreak": 1,
+  "lastSyncedAt": "2026-07-24T12:12:41.448Z",
+  "recent": [
+    {
+      "id": 268,
+      "title": "Missing Number",
+      "difficulty": "Easy",
+      "language": "java",
+      "date": "2026-07-24"
+    }
+  ]
+}
