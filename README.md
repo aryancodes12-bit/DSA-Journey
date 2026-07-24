@@ -25,10 +25,12 @@ I aim to upload at least one code file daily to stay consistent.
 ## Hash Table
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/aryancodes12-bit/DSA-Journey/tree/master/0013-roman-to-integer) |
 | [0268-missing-number](https://github.com/aryancodes12-bit/DSA-Journey/tree/master/0268-missing-number) |
 ## Math
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/aryancodes12-bit/DSA-Journey/tree/master/0013-roman-to-integer) |
 | [0268-missing-number](https://github.com/aryancodes12-bit/DSA-Journey/tree/master/0268-missing-number) |
 ## Binary Search
 |  |
@@ -47,4 +49,8 @@ I aim to upload at least one code file daily to stay consistent.
 |  |
 | ------- |
 | [0283-move-zeroes](https://github.com/aryancodes12-bit/DSA-Journey/tree/master/0283-move-zeroes) |
+## String
+|  |
+| ------- |
+| [0013-roman-to-integer](https://github.com/aryancodes12-bit/DSA-Journey/tree/master/0013-roman-to-integer) |
 <!---LeetCode Topics End-->
