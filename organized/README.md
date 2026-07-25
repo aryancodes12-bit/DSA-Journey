@@ -1,9 +1,9 @@
 <!-- dsa-sync:start -->
 ## 📊 Progress
 
-✔ **1** problems solved · 🔥 **1** day streak (longest: 1)
+✔ **2** problems solved · 🔥 **2** day streak (longest: 2)
 
-- Easy: 1
+- Easy: 2
 - Medium: 0
 - Hard: 0
 
@@ -11,7 +11,8 @@
 
 | # | Problem | Difficulty | Language | Date |
 |---|---------|------------|----------|------|
+| 9 | Palindrome Number | Easy | java | 2026-07-25 |
 | 268 | Missing Number | Easy | java | 2026-07-24 |
 
-_Last synced: 2026-07-24T12:12:41.448Z_
+_Last synced: 2026-07-25T11:19:03.805Z_
 <!-- dsa-sync:end -->
