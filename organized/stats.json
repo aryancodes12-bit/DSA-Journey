@@ -1,12 +1,19 @@
 {
-  "total": 5,
-  "easy": 4,
+  "total": 6,
+  "easy": 5,
   "medium": 1,
   "hard": 0,
   "currentStreak": 3,
   "longestStreak": 3,
-  "lastSyncedAt": "2026-07-26T12:58:24.843Z",
+  "lastSyncedAt": "2026-07-26T14:18:19.812Z",
   "recent": [
+    {
+      "id": 977,
+      "title": "Squares of a Sorted Array",
+      "difficulty": "Easy",
+      "language": "java",
+      "date": "2026-07-26"
+    },
     {
       "id": 414,
       "title": "Third Maximum Number",
