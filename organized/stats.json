@@ -1,12 +1,19 @@
 {
-  "total": 4,
-  "easy": 3,
+  "total": 5,
+  "easy": 4,
   "medium": 1,
   "hard": 0,
   "currentStreak": 3,
   "longestStreak": 3,
-  "lastSyncedAt": "2026-07-26T12:55:53.170Z",
+  "lastSyncedAt": "2026-07-26T12:58:24.843Z",
   "recent": [
+    {
+      "id": 414,
+      "title": "Third Maximum Number",
+      "difficulty": "Easy",
+      "language": "java",
+      "date": "2026-07-26"
+    },
     {
       "id": 754,
       "title": "Reach a Number",
