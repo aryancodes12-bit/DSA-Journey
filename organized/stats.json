@@ -1,12 +1,19 @@
 {
-  "total": 3,
+  "total": 4,
   "easy": 3,
-  "medium": 0,
+  "medium": 1,
   "hard": 0,
   "currentStreak": 3,
   "longestStreak": 3,
-  "lastSyncedAt": "2026-07-26T12:53:33.996Z",
+  "lastSyncedAt": "2026-07-26T12:55:53.170Z",
   "recent": [
+    {
+      "id": 754,
+      "title": "Reach a Number",
+      "difficulty": "Medium",
+      "language": "java",
+      "date": "2026-07-26"
+    },
     {
       "id": 1752,
       "title": "Check if Array Is Sorted and Rotated",
