@@ -1,12 +1,19 @@
 {
-  "total": 2,
-  "easy": 2,
+  "total": 3,
+  "easy": 3,
   "medium": 0,
   "hard": 0,
-  "currentStreak": 2,
-  "longestStreak": 2,
-  "lastSyncedAt": "2026-07-25T11:19:03.805Z",
+  "currentStreak": 3,
+  "longestStreak": 3,
+  "lastSyncedAt": "2026-07-26T12:53:33.996Z",
   "recent": [
+    {
+      "id": 1752,
+      "title": "Check if Array Is Sorted and Rotated",
+      "difficulty": "Easy",
+      "language": "java",
+      "date": "2026-07-26"
+    },
     {
       "id": 9,
       "title": "Palindrome Number",
