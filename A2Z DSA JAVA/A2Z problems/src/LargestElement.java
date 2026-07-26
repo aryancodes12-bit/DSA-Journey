@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class LargestElement {
     int max=Integer.MIN_VALUE;
     public int largestElement(int[] nums) {
