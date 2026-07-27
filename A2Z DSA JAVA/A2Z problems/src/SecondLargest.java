@@ -15,10 +15,26 @@ public class SecondLargest {
         }
         return -1;
     }
+    public int secondSmallestElement(int[] nums) {
+        if (nums.length < 2) return -1;
+        int smallest=Integer.MAX_VALUE;
+        int secondSmallest=Integer.MAX_VALUE;
+        for (int n :nums){
+            if(n !=smallest){
+                secondSmallest=smallest;
+                smallest=n;
+            } else if (n<secondSmallest) {
+                secondSmallest=n;
+
+            }
+        }
+        return secondSmallest;
+    }
 
     public static void main(String[] args) {
         SecondLargest s=new SecondLargest();
         int [] nums= {7, 7, 2, 2, 10, 10, 10};
         System.out.println(s.secondLargestElement(nums));
+        System.out.println(s.secondSmallestElement(nums));
     }
 }
