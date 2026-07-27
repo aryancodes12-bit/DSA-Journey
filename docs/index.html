@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LeetWeave Scribe — Analytics</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.4/chart.umd.min.js"></script>
+<style>
+  :root {
+    --gh-canvas:#f6f8fa; --gh-border:#d0d7de; --gh-fg:#1f2328; --gh-fg-muted:#59636e;
+    --gh-green:#1a7f37; --gh-green-dark:#238636; --gh-blue:#0969da;
+    --easy:#00af9b; --medium:#ffa116; --hard:#ef4743;
+    --mono: ui-monospace,"SF Mono","Cascadia Code",Consolas,monospace;
+    --sans: -apple-system,"Segoe UI",Helvetica,Arial,sans-serif;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; font-family: var(--sans); background: #fff; color: var(--gh-fg);
+    min-height: 100vh;
+  }
+  .wrap { max-width: 980px; margin: 0 auto; padding: 32px 24px 80px; }
+
+  /* Header */
+  header { display: flex; align-items: center; gap: 14px; margin-bottom: 28px; flex-wrap: wrap; }
+  .logo {
+    width: 40px; height: 40px; border-radius: 10px;
+    background: linear-gradient(135deg,#238636,#2ea043);
+    display: flex; align-items: center; justify-content: center; font-size: 20px; flex-shrink: 0;
+  }
+  header h1 { margin: 0; font-size: 20px; }
+  header p { margin: 2px 0 0; font-size: 13px; color: var(--gh-fg-muted); }
+  header .actions { margin-left: auto; display: flex; gap: 8px; }
+  .btn {
+    padding: 7px 14px; border-radius: 6px; border: 1px solid var(--gh-border);
+    background: #fff; font-size: 12.5px; font-weight: 600; cursor: pointer; color: var(--gh-fg);
+    text-decoration: none; display: inline-flex; align-items: center; gap: 6px;
+  }
+  .btn:hover { background: var(--gh-canvas); }
+
+  /* Settings screen */
+  #settings-screen {
+    max-width: 420px; margin: 80px auto; text-align: center;
+  }
+  #settings-screen h2 { margin-bottom: 4px; }
+  #settings-screen p.sub { color: var(--gh-fg-muted); font-size: 13px; margin-bottom: 24px; }
+  #settings-screen label { display: block; text-align: left; font-size: 11px; font-weight: 600; color: var(--gh-fg-muted); margin: 12px 0 4px; text-transform: uppercase; letter-spacing: .03em; }
+  #settings-screen input { width: 100%; padding: 9px 11px; border: 1px solid var(--gh-border); border-radius: 6px; font-size: 13px; font-family: inherit; }
+  #settings-screen .row { display: flex; gap: 8px; }
+  #settings-screen .row > div { flex: 1; }
+  #settings-screen button { width: 100%; margin-top: 18px; padding: 10px; border-radius: 7px; border: none; background: var(--gh-green-dark); color: #fff; font-weight: 700; font-size: 13.5px; cursor: pointer; }
+  #settings-error { color: #c0362c; font-size: 12.5px; margin-top: 10px; min-height: 16px; }
+
+  /* Cards */
+  .card-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 28px; }
+  .card { background: var(--gh-canvas); border: 1px solid var(--gh-border); border-radius: 10px; padding: 16px; text-align: center; }
+  .card .num { font-family: var(--mono); font-size: 26px; font-weight: 700; }
+  .card .label { font-size: 11.5px; color: var(--gh-fg-muted); margin-top: 4px; text-transform: uppercase; letter-spacing: .04em; }
+
+  section { margin-bottom: 32px; }
+  section h2 { font-size: 15px; margin: 0 0 14px; padding-bottom: 8px; border-bottom: 1px solid var(--gh-border); }
+
+  .chart-box { background: #fff; border: 1px solid var(--gh-border); border-radius: 10px; padding: 18px; }
+
+  /* Topic heatmap */
+  .heatmap { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 8px; }
+  .tile {
+    border-radius: 8px; padding: 10px 12px; color: #fff; font-size: 12px;
+    display: flex; flex-direction: column; gap: 2px; min-height: 56px; justify-content: center;
+  }
+  .tile .t-name { font-weight: 700; font-size: 12px; }
+  .tile .t-count { font-family: var(--mono); font-size: 11px; opacity: .9; }
+
+  #loading, #error-state { text-align: center; padding: 60px 20px; color: var(--gh-fg-muted); }
+  #error-state { color: #c0362c; }
+
+  .hidden { display: none !important; }
+  footer { text-align: center; font-size: 11.5px; color: var(--gh-fg-muted); margin-top: 40px; }
+  footer a { color: var(--gh-blue); }
+</style>
+</head>
+<body>
+
+<div id="settings-screen" class="wrap">
+  <div class="logo" style="margin: 0 auto 16px;">🔗</div>
+  <h2>LeetWeave Scribe Analytics</h2>
+  <p class="sub">Point this at your public repo to see live solve analytics.</p>
+
+  <label for="s-owner">GitHub username / org</label>
+  <input id="s-owner" placeholder="aryancodes12-bit" />
+
+  <label for="s-repo">Repository name</label>
+  <input id="s-repo" placeholder="DSA-Journey" />
+
+  <div class="row">
+    <div>
+      <label for="s-branch">Branch</label>
+      <input id="s-branch" placeholder="main" value="main" />
+    </div>
+    <div>
+      <label for="s-dest">Folder</label>
+      <input id="s-dest" placeholder="organized" value="organized" />
+    </div>
+  </div>
+
+  <button id="s-load">Load Dashboard</button>
+  <p id="settings-error"></p>
+  <p style="font-size:11.5px;color:var(--gh-fg-muted);margin-top:16px;">
+    Only works for <strong>public</strong> repos — this page has no backend and no auth,
+    it reads directly from GitHub's public API in your browser.
+  </p>
+</div>
+
+<div id="dashboard" class="wrap hidden">
+  <header>
+    <div class="logo">🔗</div>
+    <div>
+      <h1>LeetWeave Scribe Analytics</h1>
+      <p id="repo-label">—</p>
+    </div>
+    <div class="actions">
+      <a class="btn" id="view-repo-link" href="#" target="_blank">View Repo</a>
+      <button class="btn" id="change-repo">Change Repo</button>
+    </div>
+  </header>
+
+  <div id="loading">Loading live data from GitHub…</div>
+  <div id="error-state" class="hidden"></div>
+
+  <div id="content" class="hidden">
+    <div class="card-grid">
+      <div class="card"><div class="num" id="stat-total">0</div><div class="label">Solved</div></div>
+      <div class="card"><div class="num" id="stat-streak">0</div><div class="label">Streak</div></div>
+      <div class="card"><div class="num" id="stat-longest">0</div><div class="label">Longest</div></div>
+      <div class="card"><div class="num" id="stat-timesaved">0h</div><div class="label">Time Saved</div></div>
+    </div>
+
+    <section>
+      <h2>📈 Solve Velocity</h2>
+      <div class="chart-box"><canvas id="velocity-chart" height="90"></canvas></div>
+    </section>
+
+    <section>
+      <h2>🎯 Difficulty Coverage</h2>
+      <div class="chart-box"><canvas id="difficulty-chart" height="80"></canvas></div>
+    </section>
+
+    <section>
+      <h2>🗺️ Topic Coverage Heatmap</h2>
+      <div class="chart-box">
+        <div class="heatmap" id="heatmap"></div>
+      </div>
+    </section>
+  </div>
+
+  <footer>Generated client-side from your GitHub repo's public data. No data is sent anywhere else.</footer>
+</div>
+
+<script>
+// ---- Embedded reference dataset: total problems per topic across all of LeetCode ----
+// (same bundled dataset LeetWeave Scribe's CLI/extension use — keeps this page dependency-free)
+const TOPIC_TOTALS = {"Array":1673,"Hash Table":611,"Linked List":66,"Math":528,"Recursion":40,"String":699,"Sliding Window":133,"Binary Search":265,"Divide and Conquer":42,"Two Pointers":182,"Dynamic Programming":530,"Greedy":377,"Trie":45,"Sorting":400,"Backtracking":88,"Stack":140,"Heap (Priority Queue)":169,"Merge Sort":18,"Bit Manipulation":230,"Tree":215,"Binary Tree":293,"Depth-First Search":253,"Breadth-First Search":123,"Union Find":140,"Graph":135,"Topological Sort":45,"Design":91,"Doubly-Linked List":15,"Queue":34,"Binary Search Tree":49,"Ordered Set":19,"Sliding Window Maximum":1,"Bucket Sort":9,"Counting Sort":9,"Radix Sort":6,"Segment Tree":38,"Binary Indexed Tree":19,"Line Sweep":5,"Geometry":25,"Rolling Hash":25,"String Matching":18,"Data Stream":10,"Interactive":30,"Monotonic Stack":81,"Monotonic Deque":8,"Combinatorics":38,"Probability and Statistics":30,"Number Theory":36,"Game Theory":19,"Shortest Path":24,"Memoization":54,"Concurrency":9,"Enumeration":180,"Iterator":10,"Randomized":25,"Reservoir Sampling":3,"Rejection Sampling":3,"Suffix Array":8,"Minimum Spanning Tree":8,"Strongly Connected Component":6,"Eulerian Circuit":3,"Simulation":316,"Prefix Sum":195,"Hash Function":72,"Quickselect":15,"Shell":8,"Biconnected Component":2,"Matrix":221,"Brainteaser":16,"Bitmask":73,"Container With Most Water":1,"Skiplist":1,"Deque":11};
+const DIFFICULTY_TOTALS = { Easy: 763, Medium: 1464, Hard: 686 };
+
+const IGNORED = new Set(['readme.md', 'stats.json']);
+
+function el(id) { return document.getElementById(id); }
+
+function loadSavedConfig() {
+  const params = new URLSearchParams(window.location.search);
+  if (params.get('owner') && params.get('repo')) {
+    return {
+      owner: params.get('owner'),
+      repo: params.get('repo'),
+      branch: params.get('branch') || 'main',
+      dest: params.get('dest') || 'organized',
+    };
+  }
+  const raw = localStorage.getItem('lws-analytics-config');
+  return raw ? JSON.parse(raw) : null;
+}
+
+function saveConfig(cfg) {
+  localStorage.setItem('lws-analytics-config', JSON.stringify(cfg));
+}
+
+async function init() {
+  const saved = loadSavedConfig();
+  if (saved) {
+    showDashboard(saved);
+  } else {
+    el('settings-screen').classList.remove('hidden');
+  }
+}
+
+el('s-load').addEventListener('click', () => {
+  const owner = el('s-owner').value.trim();
+  const repo = el('s-repo').value.trim();
+  const branch = el('s-branch').value.trim() || 'main';
+  const dest = el('s-dest').value.trim() || 'organized';
+
+  if (!owner || !repo) {
+    el('settings-error').textContent = 'Username and repo name are both required.';
+    return;
+  }
+
+  const cfg = { owner, repo, branch, dest };
+  saveConfig(cfg);
+  el('settings-screen').classList.add('hidden');
+  showDashboard(cfg);
+});
+
+el('change-repo')?.addEventListener('click', () => {
+  localStorage.removeItem('lws-analytics-config');
+  window.location.search = '';
+});
+
+async function showDashboard(cfg) {
+  el('dashboard').classList.remove('hidden');
+  el('repo-label').textContent = `${cfg.owner}/${cfg.repo}`;
+  el('view-repo-link').href = `https://github.com/${cfg.owner}/${cfg.repo}/tree/${cfg.branch}/${cfg.dest}`;
+
+  try {
+    const [stats, topicCounts, commitDates] = await Promise.all([
+      fetchStats(cfg),
+      fetchTopicCounts(cfg),
+      fetchCommitDates(cfg),
+    ]);
+
+    el('loading').classList.add('hidden');
+    el('content').classList.remove('hidden');
+
+    renderCards(stats);
+    renderVelocityChart(commitDates);
+    renderDifficultyChart(stats);
+    renderHeatmap(topicCounts);
+  } catch (err) {
+    el('loading').classList.add('hidden');
+    const errEl = el('error-state');
+    errEl.classList.remove('hidden');
+    errEl.innerHTML = `
+      <p><strong>Couldn't load data for ${cfg.owner}/${cfg.repo}.</strong></p>
+      <p style="font-size:12.5px;">${escapeHtml(err.message)}</p>
+      <p style="font-size:12.5px;">Check the repo is public, and that "${cfg.dest}/stats.json" exists on branch "${cfg.branch}".</p>
+      <button class="btn" onclick="localStorage.removeItem('lws-analytics-config'); window.location.search='';">Try a different repo</button>
+    `;
+  }
+}
+
+async function fetchStats(cfg) {
+  const url = `https://raw.githubusercontent.com/${cfg.owner}/${cfg.repo}/${cfg.branch}/${cfg.dest}/stats.json`;
+  const res = await fetch(url);
+  if (!res.ok) throw new Error(`stats.json not found (HTTP ${res.status})`);
+  return res.json();
+}
+
+async function fetchTopicCounts(cfg) {
+  const listUrl = `https://api.github.com/repos/${cfg.owner}/${cfg.repo}/contents/${cfg.dest}?ref=${cfg.branch}`;
+  const res = await fetch(listUrl);
+  if (!res.ok) throw new Error(`Couldn't list "${cfg.dest}" (HTTP ${res.status}) — GitHub API rate limit may apply.`);
+  const entries = await res.json();
+  const folders = entries.filter((e) => e.type === 'dir');
+
+  const counts = {};
+  for (const folder of folders) {
+    const subRes = await fetch(folder.url);
+    if (!subRes.ok) continue;
+    const subEntries = await subRes.json();
+    // Each problem now lives in its own subfolder (nested layout) — but a repo
+    // that started before that change will have some problems as flat file
+    // pairs (LC1.java + LC1.md) sitting alongside newer nested folders in the
+    // SAME topic directory. Count both, since undercounting either silently
+    // hides real solved problems from someone mid-migration.
+    const subFolders = subEntries.filter((e) => e.type === 'dir').length;
+    const flatBaseNames = new Set(
+      subEntries
+        .filter((e) => e.type === 'file' && !IGNORED.has(e.name.toLowerCase()))
+        .map((e) => e.name.replace(/\.[^./]+$/, '')),
+    );
+    counts[folder.name] = subFolders + flatBaseNames.size;
+  }
+  return counts;
+}
+
+async function fetchCommitDates(cfg) {
+  const url = `https://api.github.com/repos/${cfg.owner}/${cfg.repo}/commits?path=${encodeURIComponent(cfg.dest)}&per_page=100&sha=${cfg.branch}`;
+  const res = await fetch(url);
+  if (!res.ok) return []; // non-fatal — velocity chart just shows empty if this fails
+  const commits = await res.json();
+  return commits
+    .map((c) => c.commit?.author?.date)
+    .filter(Boolean)
+    .map((d) => d.slice(0, 10));
+}
+
+function renderCards(stats) {
+  el('stat-total').textContent = stats.total ?? 0;
+  el('stat-streak').textContent = stats.currentStreak ?? 0;
+  el('stat-longest').textContent = stats.longestStreak ?? 0;
+  el('stat-timesaved').textContent = formatDuration(stats.timeSavedSeconds ?? 0);
+}
+
+function formatDuration(totalSeconds) {
+  const hours = Math.floor(totalSeconds / 3600);
+  const mins = Math.floor((totalSeconds % 3600) / 60);
+  if (hours > 0) return `${hours}h ${mins}m`;
+  if (mins > 0) return `${mins}m`;
+  return `${Math.round(totalSeconds)}s`;
+}
+
+function renderVelocityChart(commitDates) {
+  const counts = {};
+  for (const d of commitDates) counts[d] = (counts[d] ?? 0) + 1;
+  const sortedDates = Object.keys(counts).sort();
+
+  let cumulative = 0;
+  const cumulativeData = sortedDates.map((d) => {
+    cumulative += counts[d];
+    return cumulative;
+  });
+
+  new Chart(el('velocity-chart'), {
+    type: 'line',
+    data: {
+      labels: sortedDates,
+      datasets: [{
+        label: 'Cumulative solves',
+        data: cumulativeData,
+        borderColor: '#238636',
+        backgroundColor: 'rgba(35,134,54,0.08)',
+        fill: true,
+        tension: 0.25,
+        pointRadius: 2,
+      }],
+    },
+    options: {
+      responsive: true,
+      plugins: { legend: { display: false } },
+      scales: { y: { beginAtZero: true, ticks: { precision: 0 } } },
+    },
+  });
+}
+
+function renderDifficultyChart(stats) {
+  new Chart(el('difficulty-chart'), {
+    type: 'bar',
+    data: {
+      labels: ['Easy', 'Medium', 'Hard'],
+      datasets: [
+        {
+          label: 'Solved',
+          data: [stats.easy ?? 0, stats.medium ?? 0, stats.hard ?? 0],
+          backgroundColor: ['#00af9b', '#ffa116', '#ef4743'],
+        },
+      ],
+    },
+    options: {
+      indexAxis: 'y',
+      responsive: true,
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          callbacks: {
+            afterLabel: (ctx) => {
+              const totals = [DIFFICULTY_TOTALS.Easy, DIFFICULTY_TOTALS.Medium, DIFFICULTY_TOTALS.Hard];
+              const total = totals[ctx.dataIndex];
+              const pct = ((ctx.raw / total) * 100).toFixed(2);
+              return `${ctx.raw} / ${total} total (${pct}%)`;
+            },
+          },
+        },
+      },
+      scales: { x: { beginAtZero: true } },
+    },
+  });
+}
+
+function renderHeatmap(topicCounts) {
+  const container = el('heatmap');
+  const entries = Object.entries(topicCounts)
+    .map(([topic, solved]) => ({
+      topic,
+      solved,
+      total: TOPIC_TOTALS[topic] ?? null,
+    }))
+    .sort((a, b) => b.solved - a.solved);
+
+  if (entries.length === 0) {
+    container.innerHTML = '<p style="color:var(--gh-fg-muted);font-size:12.5px;">No topic folders found yet.</p>';
+    return;
+  }
+
+  container.innerHTML = entries
+    .map((e) => {
+      const pct = e.total ? Math.min(100, (e.solved / e.total) * 100) : 0;
+      const color = heatColor(pct);
+      const totalLabel = e.total ? `${e.solved} / ${e.total}` : `${e.solved} solved`;
+      return `
+        <div class="tile" style="background:${color};">
+          <span class="t-name">${escapeHtml(e.topic)}</span>
+          <span class="t-count">${totalLabel}</span>
+        </div>
+      `;
+    })
+    .join('');
+}
+
+function heatColor(pct) {
+  // Low coverage -> muted blue-gray, high coverage -> vivid green. Deliberately
+  // conservative at the low end since even "high" topic coverage is usually a
+  // small percentage of LeetCode's full set.
+  if (pct >= 5) return '#1a7f37';
+  if (pct >= 2) return '#2ea043';
+  if (pct >= 0.5) return '#54aeff';
+  return '#8b949e';
+}
+
+function escapeHtml(text) {
+  const div = document.createElement('div');
+  div.textContent = String(text);
+  return div.innerHTML;
+}
+
+init();
+</script>
+
+</body>
+</html>
