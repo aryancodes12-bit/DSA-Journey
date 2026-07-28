@@ -1,12 +1,20 @@
 {
-  "total": 2,
+  "total": 3,
   "easy": 2,
-  "medium": 0,
+  "medium": 1,
   "hard": 0,
-  "currentStreak": 2,
+  "currentStreak": 1,
   "longestStreak": 2,
-  "lastSyncedAt": "2026-07-25T11:19:03.805Z",
+  "lastSyncedAt": "2026-07-28T16:02:55.007Z",
+  "timeSavedSeconds": 176.378,
   "recent": [
+    {
+      "id": 189,
+      "title": "Rotate Array",
+      "difficulty": "Medium",
+      "language": "java",
+      "date": "2026-07-28"
+    },
     {
       "id": 9,
       "title": "Palindrome Number",
