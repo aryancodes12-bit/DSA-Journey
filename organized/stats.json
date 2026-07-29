@@ -1,13 +1,20 @@
 {
-  "total": 3,
-  "easy": 2,
+  "total": 4,
+  "easy": 3,
   "medium": 1,
   "hard": 0,
-  "currentStreak": 1,
+  "currentStreak": 2,
   "longestStreak": 2,
-  "lastSyncedAt": "2026-07-28T16:02:55.007Z",
-  "timeSavedSeconds": 176.378,
+  "lastSyncedAt": "2026-07-29T15:40:31.135Z",
+  "timeSavedSeconds": 352.873,
   "recent": [
+    {
+      "id": 283,
+      "title": "Move Zeroes",
+      "difficulty": "Easy",
+      "language": "java",
+      "date": "2026-07-29"
+    },
     {
       "id": 189,
       "title": "Rotate Array",
