@@ -1,13 +1,20 @@
 {
-  "total": 4,
-  "easy": 3,
+  "total": 5,
+  "easy": 4,
   "medium": 1,
   "hard": 0,
-  "currentStreak": 2,
-  "longestStreak": 2,
-  "lastSyncedAt": "2026-07-29T15:40:31.135Z",
-  "timeSavedSeconds": 352.873,
+  "currentStreak": 3,
+  "longestStreak": 3,
+  "lastSyncedAt": "2026-07-30T17:40:20.557Z",
+  "timeSavedSeconds": 527.637,
   "recent": [
+    {
+      "id": 136,
+      "title": "Single Number",
+      "difficulty": "Easy",
+      "language": "java",
+      "date": "2026-07-30"
+    },
     {
       "id": 283,
       "title": "Move Zeroes",
