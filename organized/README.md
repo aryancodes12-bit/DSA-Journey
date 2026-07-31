@@ -1,7 +1,7 @@
 <!-- dsa-sync:start -->
 ## 📊 Progress
 
-✔ **5** problems solved · 🔥 **3** day streak (longest: 3)
+✔ **5** problems solved · 🔥 **4** day streak (longest: 4)
 
 - Easy: 4
 - Medium: 1
@@ -11,11 +11,11 @@
 
 | # | Problem | Difficulty | Language | Date |
 |---|---------|------------|----------|------|
-| 136 | Single Number | Easy | java | 2026-07-30 |
+| 136 | Single Number | Easy | java | 2026-07-31 |
 | 283 | Move Zeroes | Easy | java | 2026-07-29 |
 | 189 | Rotate Array | Medium | java | 2026-07-28 |
 | 9 | Palindrome Number | Easy | java | 2026-07-25 |
 | 268 | Missing Number | Easy | java | 2026-07-24 |
 
-_Last synced: 2026-07-30T17:40:20.557Z_
+_Last synced: 2026-07-31T18:16:45.448Z_
 <!-- dsa-sync:end -->
