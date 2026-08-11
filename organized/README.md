@@ -1,9 +1,9 @@
 <!-- dsa-sync:start -->
 ## 📊 Progress
 
-✔ **7** problems solved · 🔥 **6** day streak (longest: 6)
+✔ **8** problems solved · 🔥 **1** day streak (longest: 6)
 
-- Easy: 6
+- Easy: 7
 - Medium: 1
 - Hard: 0
 
@@ -11,6 +11,7 @@
 
 | # | Problem | Difficulty | Language | Date |
 |---|---------|------------|----------|------|
+| 1 | Two Sum | Easy | java | 2026-08-11 |
 | 20 | Valid Parentheses | Easy | java | 2026-08-02 |
 | 2469 | Convert the Temperature | Easy | java | 2026-08-01 |
 | 136 | Single Number | Easy | java | 2026-07-31 |
@@ -19,5 +20,5 @@
 | 9 | Palindrome Number | Easy | java | 2026-07-25 |
 | 268 | Missing Number | Easy | java | 2026-07-24 |
 
-_Last synced: 2026-08-02T14:33:27.396Z_
+_Last synced: 2026-08-11T18:29:15.406Z_
 <!-- dsa-sync:end -->
