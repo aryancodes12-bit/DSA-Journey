@@ -1,16 +1,17 @@
 <!-- dsa-sync:start -->
 ## 📊 Progress
 
-✔ **8** problems solved · 🔥 **1** day streak (longest: 6)
+✔ **9** problems solved · 🔥 **2** day streak (longest: 6)
 
 - Easy: 7
-- Medium: 1
+- Medium: 2
 - Hard: 0
 
 ## Recent Solutions
 
 | # | Problem | Difficulty | Language | Date |
 |---|---------|------------|----------|------|
+| 75 | Sort Colors | Medium | java | 2026-08-12 |
 | 1 | Two Sum | Easy | java | 2026-08-11 |
 | 20 | Valid Parentheses | Easy | java | 2026-08-02 |
 | 2469 | Convert the Temperature | Easy | java | 2026-08-01 |
@@ -20,5 +21,5 @@
 | 9 | Palindrome Number | Easy | java | 2026-07-25 |
 | 268 | Missing Number | Easy | java | 2026-07-24 |
 
-_Last synced: 2026-08-11T18:29:15.406Z_
+_Last synced: 2026-08-12T17:14:19.654Z_
 <!-- dsa-sync:end -->
