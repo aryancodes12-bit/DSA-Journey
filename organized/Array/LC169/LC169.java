@@ -1,16 +1,27 @@
-import java.util.HashMap;
-import java.util.Map;
+
 class Solution {
     public int majorityElement(int[] nums) {
-          Map<Integer, Integer> mpp = new HashMap<>();
-        for (int e : nums) {
-            mpp.put(e, mpp.getOrDefault(e, 0) + 1);
-        }
-        for (Map.Entry<Integer, Integer> e : mpp.entrySet()) {
-            if (e.getValue() > nums.length/2 ) {
-                return e.getKey();
+                 int el = 0; int cnt=0; int n =nums.length;
+        for (int i = 0; i <n ; i++) {
+            if(cnt==0){
+                el=nums[i];
+                cnt=1;
+            } else if (nums[i]==el) {
+                cnt++;
             }
+            else{
+            cnt--;
         }
+        }
+        int cnt1=0;
+        for (int i = 0; i < n; i++) {
+            if(nums[i]==el){
+                cnt1++;
+            } 
+            } if (cnt1 > n/2) {
+                return el ;
+            }  
+        
         return -1;
     }
-}
+    }
