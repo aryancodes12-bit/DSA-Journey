@@ -1,9 +1,9 @@
 <!-- dsa-sync:start -->
 ## 📊 Progress
 
-✔ **9** problems solved · 🔥 **2** day streak (longest: 6)
+✔ **10** problems solved · 🔥 **3** day streak (longest: 6)
 
-- Easy: 7
+- Easy: 8
 - Medium: 2
 - Hard: 0
 
@@ -11,6 +11,7 @@
 
 | # | Problem | Difficulty | Language | Date |
 |---|---------|------------|----------|------|
+| 169 | Majority Element | Easy | java | 2026-08-13 |
 | 75 | Sort Colors | Medium | java | 2026-08-12 |
 | 1 | Two Sum | Easy | java | 2026-08-11 |
 | 20 | Valid Parentheses | Easy | java | 2026-08-02 |
@@ -21,5 +22,5 @@
 | 9 | Palindrome Number | Easy | java | 2026-07-25 |
 | 268 | Missing Number | Easy | java | 2026-07-24 |
 
-_Last synced: 2026-08-12T17:14:19.654Z_
+_Last synced: 2026-08-13T11:34:16.067Z_
 <!-- dsa-sync:end -->
