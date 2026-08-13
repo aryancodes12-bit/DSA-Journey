@@ -1,13 +1,20 @@
 {
-  "total": 9,
-  "easy": 7,
+  "total": 10,
+  "easy": 8,
   "medium": 2,
   "hard": 0,
-  "currentStreak": 2,
+  "currentStreak": 3,
   "longestStreak": 6,
-  "lastSyncedAt": "2026-08-12T17:14:19.654Z",
-  "timeSavedSeconds": 1231.433,
+  "lastSyncedAt": "2026-08-13T11:34:16.067Z",
+  "timeSavedSeconds": 1407.545,
   "recent": [
+    {
+      "id": 169,
+      "title": "Majority Element",
+      "difficulty": "Easy",
+      "language": "java",
+      "date": "2026-08-13"
+    },
     {
       "id": 75,
       "title": "Sort Colors",
