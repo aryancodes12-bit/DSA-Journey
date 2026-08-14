@@ -1,4 +1,4 @@
-package Leetcode;
+package Leetcode.Arrays;
 
 public class LC1480 {
     public int[] runningSum(int[] nums) {

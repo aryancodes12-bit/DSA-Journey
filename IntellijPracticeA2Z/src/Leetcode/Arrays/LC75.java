@@ -1,4 +1,4 @@
-package Leetcode;
+package Leetcode.Arrays;
 
 public class LC75 {
     public void sortColors(int[] nums) {

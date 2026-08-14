@@ -1,7 +1,4 @@
-package Leetcode;
-
-import java.util.Arrays;
-import java.util.HashSet;
+package Leetcode.Arrays;
 
 public class LC26 {
 //    public int removeDuplicates(int[] nums) {

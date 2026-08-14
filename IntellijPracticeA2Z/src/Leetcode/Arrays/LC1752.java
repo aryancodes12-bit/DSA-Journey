@@ -1,4 +1,4 @@
-package Leetcode;
+package Leetcode.Arrays;
 
 public class LC1752 {
     public boolean check(int[] nums) {

@@ -1,6 +1,4 @@
-package Leetcode;
-
-import java.util.Arrays;
+package Leetcode.Arrays;
 
 class Solution {
     public int[] buildArray(int[] nums) {
