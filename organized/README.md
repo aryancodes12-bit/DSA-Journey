@@ -1,16 +1,17 @@
 <!-- dsa-sync:start -->
 ## 📊 Progress
 
-✔ **11** problems solved · 🔥 **4** day streak (longest: 6)
+✔ **12** problems solved · 🔥 **4** day streak (longest: 6)
 
 - Easy: 8
-- Medium: 3
+- Medium: 4
 - Hard: 0
 
 ## Recent Solutions
 
 | # | Problem | Difficulty | Language | Date |
 |---|---------|------------|----------|------|
+| 2149 | Rearrange Array Elements by Sign | Medium | java | 2026-08-14 |
 | 53 | Maximum Subarray | Medium | java | 2026-08-14 |
 | 169 | Majority Element | Easy | java | 2026-08-13 |
 | 75 | Sort Colors | Medium | java | 2026-08-12 |
@@ -20,7 +21,6 @@
 | 136 | Single Number | Easy | java | 2026-07-31 |
 | 283 | Move Zeroes | Easy | java | 2026-07-29 |
 | 189 | Rotate Array | Medium | java | 2026-07-28 |
-| 9 | Palindrome Number | Easy | java | 2026-07-25 |
 
-_Last synced: 2026-08-14T13:39:15.790Z_
+_Last synced: 2026-08-14T18:54:54.646Z_
 <!-- dsa-sync:end -->
