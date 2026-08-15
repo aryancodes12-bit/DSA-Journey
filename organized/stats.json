@@ -1,13 +1,20 @@
 {
-  "total": 13,
+  "total": 14,
   "easy": 9,
-  "medium": 4,
+  "medium": 5,
   "hard": 0,
   "currentStreak": 5,
   "longestStreak": 6,
-  "lastSyncedAt": "2026-08-15T08:43:40.633Z",
-  "timeSavedSeconds": 1936.682,
+  "lastSyncedAt": "2026-08-15T16:37:02.676Z",
+  "timeSavedSeconds": 2113.012,
   "recent": [
+    {
+      "id": 31,
+      "title": "Next Permutation",
+      "difficulty": "Medium",
+      "language": "java",
+      "date": "2026-08-15"
+    },
     {
       "id": 121,
       "title": "Best Time to Buy and Sell Stock",
@@ -70,13 +77,6 @@
       "difficulty": "Easy",
       "language": "java",
       "date": "2026-07-31"
-    },
-    {
-      "id": 283,
-      "title": "Move Zeroes",
-      "difficulty": "Easy",
-      "language": "java",
-      "date": "2026-07-29"
     }
   ]
 }
