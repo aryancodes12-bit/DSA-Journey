@@ -1,13 +1,20 @@
 {
-  "total": 12,
-  "easy": 8,
+  "total": 13,
+  "easy": 9,
   "medium": 4,
   "hard": 0,
-  "currentStreak": 4,
+  "currentStreak": 5,
   "longestStreak": 6,
-  "lastSyncedAt": "2026-08-14T18:54:54.646Z",
-  "timeSavedSeconds": 1760.304,
+  "lastSyncedAt": "2026-08-15T08:43:40.633Z",
+  "timeSavedSeconds": 1936.682,
   "recent": [
+    {
+      "id": 121,
+      "title": "Best Time to Buy and Sell Stock",
+      "difficulty": "Easy",
+      "language": "java",
+      "date": "2026-08-15"
+    },
     {
       "id": 2149,
       "title": "Rearrange Array Elements by Sign",
@@ -70,13 +77,6 @@
       "difficulty": "Easy",
       "language": "java",
       "date": "2026-07-29"
-    },
-    {
-      "id": 189,
-      "title": "Rotate Array",
-      "difficulty": "Medium",
-      "language": "java",
-      "date": "2026-07-28"
     }
   ]
 }
