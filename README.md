@@ -56,3 +56,9 @@ I aim to upload at least one code file daily to stay consistent.
 | ------- |
 | [0013-roman-to-integer](https://github.com/aryancodes12-bit/DSA-Journey/tree/master/0013-roman-to-integer) |
 <!---LeetCode Topics End-->
+
+<!-- dsa-sync:start -->
+📊 **15** problems solved · 🔥 **1** day streak (longest: 6)
+Easy: 9 · Medium: 6 · Hard: 0
+📁 [Full progress log →](organized/README.md)
+<!-- dsa-sync:end -->
