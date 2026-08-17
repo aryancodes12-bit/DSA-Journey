@@ -1,13 +1,20 @@
 {
-  "total": 14,
+  "total": 15,
   "easy": 9,
-  "medium": 5,
+  "medium": 6,
   "hard": 0,
-  "currentStreak": 5,
+  "currentStreak": 1,
   "longestStreak": 6,
-  "lastSyncedAt": "2026-08-15T16:37:02.676Z",
-  "timeSavedSeconds": 2113.012,
+  "lastSyncedAt": "2026-08-17T18:26:53.017Z",
+  "timeSavedSeconds": 2288.025,
   "recent": [
+    {
+      "id": 128,
+      "title": "Longest Consecutive Sequence",
+      "difficulty": "Medium",
+      "language": "java",
+      "date": "2026-08-17"
+    },
     {
       "id": 31,
       "title": "Next Permutation",
@@ -70,13 +77,6 @@
       "difficulty": "Easy",
       "language": "java",
       "date": "2026-08-01"
-    },
-    {
-      "id": 136,
-      "title": "Single Number",
-      "difficulty": "Easy",
-      "language": "java",
-      "date": "2026-07-31"
     }
   ]
 }
