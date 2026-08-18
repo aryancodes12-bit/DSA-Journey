@@ -30,6 +30,36 @@ public class LongestConsecutiveSeq {
 //        return longest;
 //    }
 
+
+    // BETTER
+    /*
+    import java.util.*;
+class Solution {
+    public int longestConsecutive(int[] nums) {
+      int n =nums.length;
+      Arrays.sort(nums);
+       int lastseen=Integer.MAX_VALUE; int longest=1;
+      int cnt=0;
+      if(n==0){
+        return 0;
+      }
+      for(int i=0;i<n;i++){
+
+        if(nums[i]-1==lastseen){
+            lastseen=nums[i];
+            cnt++;
+        }
+        else if(nums[i]!=lastseen){
+            cnt=1;
+            lastseen=nums[i];
+        }
+        longest=Math.max(longest,cnt);
+      }
+      return longest;
+    }
+}
+    */
+
     //OPTIMAL
 
     public int longestConsecutive(int[] nums) {
