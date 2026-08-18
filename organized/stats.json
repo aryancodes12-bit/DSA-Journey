@@ -1,13 +1,20 @@
 {
-  "total": 15,
+  "total": 16,
   "easy": 9,
-  "medium": 6,
+  "medium": 7,
   "hard": 0,
-  "currentStreak": 1,
+  "currentStreak": 2,
   "longestStreak": 6,
-  "lastSyncedAt": "2026-08-17T18:28:37.983Z",
-  "timeSavedSeconds": 2288.025,
+  "lastSyncedAt": "2026-08-18T15:37:51.055Z",
+  "timeSavedSeconds": 2464.1400000000003,
   "recent": [
+    {
+      "id": 73,
+      "title": "Set Matrix Zeroes",
+      "difficulty": "Medium",
+      "language": "java",
+      "date": "2026-08-18"
+    },
     {
       "id": 128,
       "title": "Longest Consecutive Sequence",
@@ -70,13 +77,6 @@
       "difficulty": "Easy",
       "language": "java",
       "date": "2026-08-02"
-    },
-    {
-      "id": 2469,
-      "title": "Convert the Temperature",
-      "difficulty": "Easy",
-      "language": "java",
-      "date": "2026-08-01"
     }
   ]
 }
