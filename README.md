@@ -58,7 +58,7 @@ I aim to upload at least one code file daily to stay consistent.
 <!---LeetCode Topics End-->
 
 <!-- dsa-sync:start -->
-📊 **16** problems solved · 🔥 **2** day streak (longest: 6)
-Easy: 9 · Medium: 7 · Hard: 0
+📊 **17** problems solved · 🔥 **3** day streak (longest: 6)
+Easy: 9 · Medium: 8 · Hard: 0
 📁 [Full progress log →](organized/README.md)
 <!-- dsa-sync:end -->
