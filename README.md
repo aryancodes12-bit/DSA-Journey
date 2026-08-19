@@ -15,47 +15,7 @@ This repository contains Java solutions to DSA problems I practice regularly.
 ### 🗓 Update Frequency
 I aim to upload at least one code file daily to stay consistent.
 <!---LeetCode Topics Start-->
-# LeetCode Topics
-## Array
-|  |
-| ------- |
-| [0268-missing-number](https://github.com/aryancodes12-bit/DSA-Journey/tree/master/0268-missing-number) |
-| [0283-move-zeroes](https://github.com/aryancodes12-bit/DSA-Journey/tree/master/0283-move-zeroes) |
-| [0414-third-maximum-number](https://github.com/aryancodes12-bit/DSA-Journey/tree/master/0414-third-maximum-number) |
-| [0704-binary-search](https://github.com/aryancodes12-bit/DSA-Journey/tree/master/0704-binary-search) |
-## Hash Table
-|  |
-| ------- |
-| [0013-roman-to-integer](https://github.com/aryancodes12-bit/DSA-Journey/tree/master/0013-roman-to-integer) |
-| [0268-missing-number](https://github.com/aryancodes12-bit/DSA-Journey/tree/master/0268-missing-number) |
-## Math
-|  |
-| ------- |
-| [0013-roman-to-integer](https://github.com/aryancodes12-bit/DSA-Journey/tree/master/0013-roman-to-integer) |
-| [0268-missing-number](https://github.com/aryancodes12-bit/DSA-Journey/tree/master/0268-missing-number) |
-## Binary Search
-|  |
-| ------- |
-| [0268-missing-number](https://github.com/aryancodes12-bit/DSA-Journey/tree/master/0268-missing-number) |
-| [0704-binary-search](https://github.com/aryancodes12-bit/DSA-Journey/tree/master/0704-binary-search) |
-## Bit Manipulation
-|  |
-| ------- |
-| [0268-missing-number](https://github.com/aryancodes12-bit/DSA-Journey/tree/master/0268-missing-number) |
-## Sorting
-|  |
-| ------- |
-| [0268-missing-number](https://github.com/aryancodes12-bit/DSA-Journey/tree/master/0268-missing-number) |
-| [0414-third-maximum-number](https://github.com/aryancodes12-bit/DSA-Journey/tree/master/0414-third-maximum-number) |
-## Two Pointers
-|  |
-| ------- |
-| [0283-move-zeroes](https://github.com/aryancodes12-bit/DSA-Journey/tree/master/0283-move-zeroes) |
-## String
-|  |
-| ------- |
-| [0013-roman-to-integer](https://github.com/aryancodes12-bit/DSA-Journey/tree/master/0013-roman-to-integer) |
-<!---LeetCode Topics End-->
+
 
 <!-- dsa-sync:start -->
 📊 **18** problems solved · 🔥 **3** day streak (longest: 6)
