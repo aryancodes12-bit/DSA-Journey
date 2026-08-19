@@ -1,16 +1,17 @@
 <!-- dsa-sync:start -->
 ## 📊 Progress
 
-✔ **17** problems solved · 🔥 **3** day streak (longest: 6)
+✔ **18** problems solved · 🔥 **3** day streak (longest: 6)
 
 - Easy: 9
-- Medium: 8
+- Medium: 9
 - Hard: 0
 
 ## Recent Solutions
 
 | # | Problem | Difficulty | Language | Date |
 |---|---------|------------|----------|------|
+| 54 | Spiral Matrix | Medium | java | 2026-08-19 |
 | 48 | Rotate Image | Medium | java | 2026-08-19 |
 | 73 | Set Matrix Zeroes | Medium | java | 2026-08-18 |
 | 128 | Longest Consecutive Sequence | Medium | java | 2026-08-17 |
@@ -20,7 +21,6 @@
 | 53 | Maximum Subarray | Medium | java | 2026-08-14 |
 | 169 | Majority Element | Easy | java | 2026-08-13 |
 | 75 | Sort Colors | Medium | java | 2026-08-12 |
-| 1 | Two Sum | Easy | java | 2026-08-11 |
 
-_Last synced: 2026-08-19T13:26:32.354Z_
+_Last synced: 2026-08-19T17:49:02.088Z_
 <!-- dsa-sync:end -->
