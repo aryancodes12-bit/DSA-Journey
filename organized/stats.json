@@ -1,13 +1,20 @@
 {
-  "total": 18,
+  "total": 19,
   "easy": 9,
-  "medium": 9,
+  "medium": 10,
   "hard": 0,
-  "currentStreak": 3,
+  "currentStreak": 4,
   "longestStreak": 6,
-  "lastSyncedAt": "2026-08-19T17:49:02.088Z",
-  "timeSavedSeconds": 2816.0190000000002,
+  "lastSyncedAt": "2026-08-20T18:04:37.717Z",
+  "timeSavedSeconds": 2992.184,
   "recent": [
+    {
+      "id": 560,
+      "title": "Subarray Sum Equals K",
+      "difficulty": "Medium",
+      "language": "java",
+      "date": "2026-08-20"
+    },
     {
       "id": 54,
       "title": "Spiral Matrix",
@@ -70,13 +77,6 @@
       "difficulty": "Easy",
       "language": "java",
       "date": "2026-08-13"
-    },
-    {
-      "id": 75,
-      "title": "Sort Colors",
-      "difficulty": "Medium",
-      "language": "java",
-      "date": "2026-08-12"
     }
   ]
 }
