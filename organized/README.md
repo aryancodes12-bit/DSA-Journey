@@ -1,9 +1,9 @@
 <!-- dsa-sync:start -->
 ## 📊 Progress
 
-✔ **20** problems solved · 🔥 **5** day streak (longest: 6)
+✔ **21** problems solved · 🔥 **5** day streak (longest: 6)
 
-- Easy: 10
+- Easy: 11
 - Medium: 10
 - Hard: 0
 
@@ -11,6 +11,7 @@
 
 | # | Problem | Difficulty | Language | Date |
 |---|---------|------------|----------|------|
+| 118 | Pascal's Triangle | Easy | java | 2026-08-21 |
 | 119 | Pascal's Triangle II | Easy | java | 2026-08-21 |
 | 560 | Subarray Sum Equals K | Medium | java | 2026-08-20 |
 | 54 | Spiral Matrix | Medium | java | 2026-08-19 |
@@ -20,7 +21,6 @@
 | 31 | Next Permutation | Medium | java | 2026-08-15 |
 | 121 | Best Time to Buy and Sell Stock | Easy | java | 2026-08-15 |
 | 2149 | Rearrange Array Elements by Sign | Medium | java | 2026-08-14 |
-| 53 | Maximum Subarray | Medium | java | 2026-08-14 |
 
-_Last synced: 2026-08-21T19:22:45.300Z_
+_Last synced: 2026-08-21T19:57:53.680Z_
 <!-- dsa-sync:end -->
