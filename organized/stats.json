@@ -1,13 +1,20 @@
 {
-  "total": 21,
+  "total": 22,
   "easy": 11,
-  "medium": 10,
+  "medium": 11,
   "hard": 0,
-  "currentStreak": 5,
+  "currentStreak": 6,
   "longestStreak": 6,
-  "lastSyncedAt": "2026-08-21T19:57:53.680Z",
-  "timeSavedSeconds": 3344.3830000000003,
+  "lastSyncedAt": "2026-08-22T18:08:14.200Z",
+  "timeSavedSeconds": 3520.472,
   "recent": [
+    {
+      "id": 229,
+      "title": "Majority Element II",
+      "difficulty": "Medium",
+      "language": "java",
+      "date": "2026-08-22"
+    },
     {
       "id": 118,
       "title": "Pascal's Triangle",
@@ -70,13 +77,6 @@
       "difficulty": "Easy",
       "language": "java",
       "date": "2026-08-15"
-    },
-    {
-      "id": 2149,
-      "title": "Rearrange Array Elements by Sign",
-      "difficulty": "Medium",
-      "language": "java",
-      "date": "2026-08-14"
     }
   ]
 }
