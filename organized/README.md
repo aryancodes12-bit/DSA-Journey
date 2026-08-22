@@ -22,5 +22,5 @@
 | 31 | Next Permutation | Medium | java | 2026-08-15 |
 | 121 | Best Time to Buy and Sell Stock | Easy | java | 2026-08-15 |
 
-_Last synced: 2026-08-22T18:08:14.200Z_
+_Last synced: 2026-08-22T18:46:50.556Z_
 <!-- dsa-sync:end -->
