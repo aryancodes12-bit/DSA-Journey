@@ -1,16 +1,17 @@
 <!-- dsa-sync:start -->
 ## 📊 Progress
 
-✔ **21** problems solved · 🔥 **5** day streak (longest: 6)
+✔ **22** problems solved · 🔥 **6** day streak (longest: 6)
 
 - Easy: 11
-- Medium: 10
+- Medium: 11
 - Hard: 0
 
 ## Recent Solutions
 
 | # | Problem | Difficulty | Language | Date |
 |---|---------|------------|----------|------|
+| 229 | Majority Element II | Medium | java | 2026-08-22 |
 | 118 | Pascal's Triangle | Easy | java | 2026-08-21 |
 | 119 | Pascal's Triangle II | Easy | java | 2026-08-21 |
 | 560 | Subarray Sum Equals K | Medium | java | 2026-08-20 |
@@ -20,7 +21,6 @@
 | 128 | Longest Consecutive Sequence | Medium | java | 2026-08-17 |
 | 31 | Next Permutation | Medium | java | 2026-08-15 |
 | 121 | Best Time to Buy and Sell Stock | Easy | java | 2026-08-15 |
-| 2149 | Rearrange Array Elements by Sign | Medium | java | 2026-08-14 |
 
-_Last synced: 2026-08-21T19:57:53.680Z_
+_Last synced: 2026-08-22T18:08:14.200Z_
 <!-- dsa-sync:end -->
