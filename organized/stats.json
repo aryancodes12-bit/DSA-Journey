@@ -1,13 +1,20 @@
 {
-  "total": 22,
+  "total": 23,
   "easy": 11,
-  "medium": 11,
+  "medium": 12,
   "hard": 0,
-  "currentStreak": 6,
-  "longestStreak": 6,
-  "lastSyncedAt": "2026-08-22T18:46:50.556Z",
-  "timeSavedSeconds": 3520.472,
+  "currentStreak": 7,
+  "longestStreak": 7,
+  "lastSyncedAt": "2026-08-23T14:27:45.643Z",
+  "timeSavedSeconds": 3694.9390000000003,
   "recent": [
+    {
+      "id": 15,
+      "title": "3Sum",
+      "difficulty": "Medium",
+      "language": "java",
+      "date": "2026-08-23"
+    },
     {
       "id": 229,
       "title": "Majority Element II",
@@ -68,13 +75,6 @@
       "id": 31,
       "title": "Next Permutation",
       "difficulty": "Medium",
-      "language": "java",
-      "date": "2026-08-15"
-    },
-    {
-      "id": 121,
-      "title": "Best Time to Buy and Sell Stock",
-      "difficulty": "Easy",
       "language": "java",
       "date": "2026-08-15"
     }
