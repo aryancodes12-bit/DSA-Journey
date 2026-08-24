@@ -1,13 +1,20 @@
 {
-  "total": 23,
+  "total": 24,
   "easy": 11,
-  "medium": 12,
+  "medium": 13,
   "hard": 0,
-  "currentStreak": 7,
-  "longestStreak": 7,
-  "lastSyncedAt": "2026-08-23T14:27:45.643Z",
-  "timeSavedSeconds": 3694.9390000000003,
+  "currentStreak": 8,
+  "longestStreak": 8,
+  "lastSyncedAt": "2026-08-24T15:37:09.741Z",
+  "timeSavedSeconds": 3871.2180000000003,
   "recent": [
+    {
+      "id": 18,
+      "title": "4Sum",
+      "difficulty": "Medium",
+      "language": "java",
+      "date": "2026-08-24"
+    },
     {
       "id": 15,
       "title": "3Sum",
@@ -70,13 +77,6 @@
       "difficulty": "Medium",
       "language": "java",
       "date": "2026-08-17"
-    },
-    {
-      "id": 31,
-      "title": "Next Permutation",
-      "difficulty": "Medium",
-      "language": "java",
-      "date": "2026-08-15"
     }
   ]
 }
