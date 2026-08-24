@@ -5,7 +5,7 @@ public class LongestSubarrayPost {
     public int longestSubarray(int[] nums, int k) {
         // BRUTE FORCE
         int n = nums.length;
-
+int len=0;
 //  for(int i=0;i<n ;i++){  int s=0;
 //      for (int j=i;j<n;j++ ) {
 //          s+=nums[j];
