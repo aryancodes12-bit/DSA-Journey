@@ -1,13 +1,20 @@
 {
-  "total": 24,
+  "total": 25,
   "easy": 11,
-  "medium": 13,
+  "medium": 14,
   "hard": 0,
-  "currentStreak": 8,
+  "currentStreak": 1,
   "longestStreak": 8,
-  "lastSyncedAt": "2026-08-24T15:37:09.741Z",
-  "timeSavedSeconds": 3871.2180000000003,
+  "lastSyncedAt": "2026-09-10T18:12:21.996Z",
+  "timeSavedSeconds": 4047.3930000000005,
   "recent": [
+    {
+      "id": 56,
+      "title": "Merge Intervals",
+      "difficulty": "Medium",
+      "language": "java",
+      "date": "2026-09-10"
+    },
     {
       "id": 18,
       "title": "4Sum",
@@ -70,13 +77,6 @@
       "difficulty": "Medium",
       "language": "java",
       "date": "2026-08-18"
-    },
-    {
-      "id": 128,
-      "title": "Longest Consecutive Sequence",
-      "difficulty": "Medium",
-      "language": "java",
-      "date": "2026-08-17"
     }
   ]
 }
