@@ -1,7 +1,7 @@
 <!-- dsa-sync:start -->
 ## 📊 Progress
 
-✔ **25** problems solved · 🔥 **1** day streak (longest: 8)
+✔ **25** problems solved · 🔥 **2** day streak (longest: 8)
 
 - Easy: 11
 - Medium: 14
@@ -11,7 +11,7 @@
 
 | # | Problem | Difficulty | Language | Date |
 |---|---------|------------|----------|------|
-| 56 | Merge Intervals | Medium | java | 2026-09-10 |
+| 56 | Merge Intervals | Medium | java | 2026-09-11 |
 | 18 | 4Sum | Medium | java | 2026-08-24 |
 | 15 | 3Sum | Medium | java | 2026-08-23 |
 | 229 | Majority Element II | Medium | java | 2026-08-22 |
@@ -22,5 +22,5 @@
 | 48 | Rotate Image | Medium | java | 2026-08-19 |
 | 73 | Set Matrix Zeroes | Medium | java | 2026-08-18 |
 
-_Last synced: 2026-09-10T18:12:21.996Z_
+_Last synced: 2026-09-11T19:28:56.995Z_
 <!-- dsa-sync:end -->
