@@ -1,42 +1,28 @@
+import java.util.*;
 class Solution {
     public int[][] merge(int[][] intervals) {
 
-        // 1. Sort by starting point
+     
         Arrays.sort(intervals, (a, b) -> a[0] - b[0]);
+int [] [] temp=new int[intervals.length] [2];
 
-        // 2. Temporary array to store answer
-        int[][] temp = new int[intervals.length][2];
-
-        int count = 0;
-
-        // 3. Start with first interval
-        int start = intervals[0][0];
-        int end = intervals[0][1];
-
-        for (int i = 1; i < intervals.length; i++) {
-
-            // Overlapping
-            if (intervals[i][0] <= end) {
-                end = Math.max(end, intervals[i][1]);
+int cnt=0;
+int i=0;
+int n =intervals.length;
+    
+    while(i<n){
+        int start=intervals[i][0];
+        int end =intervals[i][1];
+        int j =i+1;
+          while (j < n && intervals[j][0] <= end) {
+                end = Math.max(end, intervals[j][1]);
+                j++;
             }
-
-            // Not overlapping
-            else {
-                temp[count][0] = start;
-                temp[count][1] = end;
-                count++;
-
-                start = intervals[i][0];
-                end = intervals[i][1];
-            }
-        }
-
-        // Add last interval
-        temp[count][0] = start;
-        temp[count][1] = end;
-        count++;
-
-        // Return only required rows
-        return Arrays.copyOf(temp, count);
+            temp[cnt][0]=start;
+            temp[cnt][1]=end;
+            cnt++;
+            i=j;
+    }
+    return Arrays.copyOf(temp,cnt);
     }
 }
