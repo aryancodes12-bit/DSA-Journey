@@ -1,9 +1,9 @@
 <!-- dsa-sync:start -->
 ## 📊 Progress
 
-✔ **25** problems solved · 🔥 **2** day streak (longest: 8)
+✔ **26** problems solved · 🔥 **3** day streak (longest: 8)
 
-- Easy: 11
+- Easy: 12
 - Medium: 14
 - Hard: 0
 
@@ -11,6 +11,7 @@
 
 | # | Problem | Difficulty | Language | Date |
 |---|---------|------------|----------|------|
+| 88 | Merge Sorted Array | Easy | java | 2026-09-12 |
 | 56 | Merge Intervals | Medium | java | 2026-09-11 |
 | 18 | 4Sum | Medium | java | 2026-08-24 |
 | 15 | 3Sum | Medium | java | 2026-08-23 |
@@ -20,7 +21,6 @@
 | 560 | Subarray Sum Equals K | Medium | java | 2026-08-20 |
 | 54 | Spiral Matrix | Medium | java | 2026-08-19 |
 | 48 | Rotate Image | Medium | java | 2026-08-19 |
-| 73 | Set Matrix Zeroes | Medium | java | 2026-08-18 |
 
-_Last synced: 2026-09-11T19:28:56.995Z_
+_Last synced: 2026-09-12T18:18:29.777Z_
 <!-- dsa-sync:end -->
