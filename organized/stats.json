@@ -1,13 +1,20 @@
 {
-  "total": 25,
-  "easy": 11,
+  "total": 26,
+  "easy": 12,
   "medium": 14,
   "hard": 0,
-  "currentStreak": 2,
+  "currentStreak": 3,
   "longestStreak": 8,
-  "lastSyncedAt": "2026-09-11T19:28:56.995Z",
-  "timeSavedSeconds": 4047.3930000000005,
+  "lastSyncedAt": "2026-09-12T18:18:29.777Z",
+  "timeSavedSeconds": 4223.723000000001,
   "recent": [
+    {
+      "id": 88,
+      "title": "Merge Sorted Array",
+      "difficulty": "Easy",
+      "language": "java",
+      "date": "2026-09-12"
+    },
     {
       "id": 56,
       "title": "Merge Intervals",
@@ -70,13 +77,6 @@
       "difficulty": "Medium",
       "language": "java",
       "date": "2026-08-19"
-    },
-    {
-      "id": 73,
-      "title": "Set Matrix Zeroes",
-      "difficulty": "Medium",
-      "language": "java",
-      "date": "2026-08-18"
     }
   ]
 }
