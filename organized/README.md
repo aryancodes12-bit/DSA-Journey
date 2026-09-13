@@ -1,9 +1,9 @@
 <!-- dsa-sync:start -->
 ## 📊 Progress
 
-✔ **26** problems solved · 🔥 **3** day streak (longest: 8)
+✔ **27** problems solved · 🔥 **4** day streak (longest: 8)
 
-- Easy: 12
+- Easy: 13
 - Medium: 14
 - Hard: 0
 
@@ -11,6 +11,7 @@
 
 | # | Problem | Difficulty | Language | Date |
 |---|---------|------------|----------|------|
+| 645 | Set Mismatch | Easy | java | 2026-09-13 |
 | 88 | Merge Sorted Array | Easy | java | 2026-09-12 |
 | 56 | Merge Intervals | Medium | java | 2026-09-11 |
 | 18 | 4Sum | Medium | java | 2026-08-24 |
@@ -20,7 +21,6 @@
 | 119 | Pascal's Triangle II | Easy | java | 2026-08-21 |
 | 560 | Subarray Sum Equals K | Medium | java | 2026-08-20 |
 | 54 | Spiral Matrix | Medium | java | 2026-08-19 |
-| 48 | Rotate Image | Medium | java | 2026-08-19 |
 
-_Last synced: 2026-09-12T18:18:29.777Z_
+_Last synced: 2026-09-13T16:17:53.694Z_
 <!-- dsa-sync:end -->
