@@ -1,3 +1,5 @@
+package Leetcode.Arrays;
+
 public class MergeIntervals {
     public int[][] merge(int[][] intervals) {
         class Solution {
