@@ -1,13 +1,20 @@
 {
-  "total": 26,
-  "easy": 12,
+  "total": 27,
+  "easy": 13,
   "medium": 14,
   "hard": 0,
-  "currentStreak": 3,
+  "currentStreak": 4,
   "longestStreak": 8,
-  "lastSyncedAt": "2026-09-12T18:18:29.777Z",
-  "timeSavedSeconds": 4223.723000000001,
+  "lastSyncedAt": "2026-09-13T16:17:53.694Z",
+  "timeSavedSeconds": 4400.655000000001,
   "recent": [
+    {
+      "id": 645,
+      "title": "Set Mismatch",
+      "difficulty": "Easy",
+      "language": "java",
+      "date": "2026-09-13"
+    },
     {
       "id": 88,
       "title": "Merge Sorted Array",
@@ -67,13 +74,6 @@
     {
       "id": 54,
       "title": "Spiral Matrix",
-      "difficulty": "Medium",
-      "language": "java",
-      "date": "2026-08-19"
-    },
-    {
-      "id": 48,
-      "title": "Rotate Image",
       "difficulty": "Medium",
       "language": "java",
       "date": "2026-08-19"
