@@ -1,13 +1,20 @@
 {
-  "total": 27,
-  "easy": 13,
+  "total": 28,
+  "easy": 14,
   "medium": 14,
   "hard": 0,
-  "currentStreak": 4,
+  "currentStreak": 5,
   "longestStreak": 8,
-  "lastSyncedAt": "2026-09-13T16:17:53.694Z",
-  "timeSavedSeconds": 4400.655000000001,
+  "lastSyncedAt": "2026-09-14T16:40:42.044Z",
+  "timeSavedSeconds": 4576.075000000001,
   "recent": [
+    {
+      "id": 704,
+      "title": "Binary Search",
+      "difficulty": "Easy",
+      "language": "java",
+      "date": "2026-09-14"
+    },
     {
       "id": 645,
       "title": "Set Mismatch",
@@ -70,13 +77,6 @@
       "difficulty": "Medium",
       "language": "java",
       "date": "2026-08-20"
-    },
-    {
-      "id": 54,
-      "title": "Spiral Matrix",
-      "difficulty": "Medium",
-      "language": "java",
-      "date": "2026-08-19"
     }
   ]
 }
