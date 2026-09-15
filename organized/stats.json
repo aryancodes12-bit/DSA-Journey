@@ -1,13 +1,20 @@
 {
-  "total": 28,
-  "easy": 14,
+  "total": 29,
+  "easy": 15,
   "medium": 14,
   "hard": 0,
-  "currentStreak": 5,
+  "currentStreak": 6,
   "longestStreak": 8,
-  "lastSyncedAt": "2026-09-14T16:40:42.044Z",
-  "timeSavedSeconds": 4576.075000000001,
+  "lastSyncedAt": "2026-09-15T16:09:40.133Z",
+  "timeSavedSeconds": 4752.773000000001,
   "recent": [
+    {
+      "id": 35,
+      "title": "Search Insert Position",
+      "difficulty": "Easy",
+      "language": "java",
+      "date": "2026-09-15"
+    },
     {
       "id": 704,
       "title": "Binary Search",
@@ -70,13 +77,6 @@
       "difficulty": "Easy",
       "language": "java",
       "date": "2026-08-21"
-    },
-    {
-      "id": 560,
-      "title": "Subarray Sum Equals K",
-      "difficulty": "Medium",
-      "language": "java",
-      "date": "2026-08-20"
     }
   ]
 }
