@@ -1,13 +1,20 @@
 {
-  "total": 29,
+  "total": 30,
   "easy": 15,
-  "medium": 14,
+  "medium": 15,
   "hard": 0,
   "currentStreak": 6,
   "longestStreak": 8,
-  "lastSyncedAt": "2026-09-15T16:09:40.133Z",
-  "timeSavedSeconds": 4752.773000000001,
+  "lastSyncedAt": "2026-09-15T19:03:47.640Z",
+  "timeSavedSeconds": 4929.4670000000015,
   "recent": [
+    {
+      "id": 34,
+      "title": "Find First and Last Position of Element in Sorted Array",
+      "difficulty": "Medium",
+      "language": "java",
+      "date": "2026-09-15"
+    },
     {
       "id": 35,
       "title": "Search Insert Position",
@@ -67,13 +74,6 @@
     {
       "id": 118,
       "title": "Pascal's Triangle",
-      "difficulty": "Easy",
-      "language": "java",
-      "date": "2026-08-21"
-    },
-    {
-      "id": 119,
-      "title": "Pascal's Triangle II",
       "difficulty": "Easy",
       "language": "java",
       "date": "2026-08-21"
