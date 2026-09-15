@@ -5,11 +5,15 @@ public class FloorAndCeil {
         int ceil=-1;
         int low = 0;
         int high = n - 1;
+
         while (low <= high) {
 
             int mid = low + (high - low) / 2;
-            if (nums[mid] <= x) {
-                floor = nums[mid];
+            if (nums[mid] <= target) {
+
+                if (nums[mid] == target) {
+                    floor = mid;
+                }
                 low = mid + 1;
             } else {
                 high = mid - 1;
@@ -20,14 +24,18 @@ public class FloorAndCeil {
         while (low <= high) {
 
             int mid1 = low + (high - low) / 2;
-            if (nums[mid1] >= x) {ceil= mid1;
+            if (nums[mid1] >= target) {
+
+                if (nums[mid1] == target) {
+                    ceil = mid1;
+                }
                 high = mid1 - 1;
             } else {
                 low = mid1 + 1;
             }
 
         }
-        return new int[] {floor,ceil};
+        return new int[] {ceil,floor};
         }
 
     }
