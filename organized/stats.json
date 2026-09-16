@@ -1,13 +1,20 @@
 {
-  "total": 31,
+  "total": 32,
   "easy": 15,
-  "medium": 16,
+  "medium": 17,
   "hard": 0,
   "currentStreak": 7,
   "longestStreak": 8,
-  "lastSyncedAt": "2026-09-16T11:49:56.244Z",
-  "timeSavedSeconds": 5105.767000000002,
+  "lastSyncedAt": "2026-09-16T15:11:44.839Z",
+  "timeSavedSeconds": 5282.3290000000015,
   "recent": [
+    {
+      "id": 81,
+      "title": "Search in Rotated Sorted Array II",
+      "difficulty": "Medium",
+      "language": "java",
+      "date": "2026-09-16"
+    },
     {
       "id": 33,
       "title": "Search in Rotated Sorted Array",
@@ -70,13 +77,6 @@
       "difficulty": "Medium",
       "language": "java",
       "date": "2026-08-23"
-    },
-    {
-      "id": 229,
-      "title": "Majority Element II",
-      "difficulty": "Medium",
-      "language": "java",
-      "date": "2026-08-22"
     }
   ]
 }
