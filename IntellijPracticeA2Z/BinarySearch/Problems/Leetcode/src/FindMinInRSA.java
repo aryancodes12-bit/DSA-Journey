@@ -1,4 +1,3 @@
-import java.util.*;
 public class FindMinInRSA {
     public int findMin(int[] nums) {
         int n = nums.length;
