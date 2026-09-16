@@ -1,13 +1,20 @@
 {
-  "total": 32,
+  "total": 33,
   "easy": 15,
-  "medium": 17,
+  "medium": 18,
   "hard": 0,
   "currentStreak": 7,
   "longestStreak": 8,
-  "lastSyncedAt": "2026-09-16T15:11:44.839Z",
-  "timeSavedSeconds": 5282.3290000000015,
+  "lastSyncedAt": "2026-09-16T17:56:59.431Z",
+  "timeSavedSeconds": 5457.071000000002,
   "recent": [
+    {
+      "id": 153,
+      "title": "Find Minimum in Rotated Sorted Array",
+      "difficulty": "Medium",
+      "language": "java",
+      "date": "2026-09-16"
+    },
     {
       "id": 81,
       "title": "Search in Rotated Sorted Array II",
@@ -70,13 +77,6 @@
       "difficulty": "Medium",
       "language": "java",
       "date": "2026-08-24"
-    },
-    {
-      "id": 15,
-      "title": "3Sum",
-      "difficulty": "Medium",
-      "language": "java",
-      "date": "2026-08-23"
     }
   ]
 }
