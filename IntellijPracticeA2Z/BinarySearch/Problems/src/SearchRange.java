@@ -1,6 +1,41 @@
 public class SearchRange {
     public int[] searchRange(int[] nums, int target) {
-int n=nums.length;
+        int n = nums.length;
+        int floor = -1;
+        int ceil=-1;
+        int low = 0;
+        int high = n - 1;
+
+        while (low <= high) {
+
+            int mid = low + (high - low) / 2;
+            if (nums[mid] <= target) {
+
+                if (nums[mid] == target) {
+                    floor = mid;
+                }
+                low = mid + 1;
+            } else {
+                high = mid - 1;
+            }
+        }
+        low = 0;
+        high = n - 1;
+        while (low <= high) {
+
+            int mid1 = low + (high - low) / 2;
+            if (nums[mid1] >= target) {
+
+                if (nums[mid1] == target) {
+                    ceil = mid1;
+                }
+                high = mid1 - 1;
+            } else {
+                low = mid1 + 1;
+            }
+
+        }
+        return new int[] {ceil,floor};
 
 
     }
