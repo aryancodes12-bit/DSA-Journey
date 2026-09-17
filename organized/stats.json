@@ -1,13 +1,20 @@
 {
-  "total": 33,
+  "total": 34,
   "easy": 15,
-  "medium": 18,
+  "medium": 19,
   "hard": 0,
-  "currentStreak": 7,
+  "currentStreak": 8,
   "longestStreak": 8,
-  "lastSyncedAt": "2026-09-16T17:56:59.431Z",
-  "timeSavedSeconds": 5457.071000000002,
+  "lastSyncedAt": "2026-09-17T13:02:48.866Z",
+  "timeSavedSeconds": 5633.832000000002,
   "recent": [
+    {
+      "id": 162,
+      "title": "Find Peak Element",
+      "difficulty": "Medium",
+      "language": "java",
+      "date": "2026-09-17"
+    },
     {
       "id": 153,
       "title": "Find Minimum in Rotated Sorted Array",
@@ -70,13 +77,6 @@
       "difficulty": "Medium",
       "language": "java",
       "date": "2026-09-11"
-    },
-    {
-      "id": 18,
-      "title": "4Sum",
-      "difficulty": "Medium",
-      "language": "java",
-      "date": "2026-08-24"
     }
   ]
 }
