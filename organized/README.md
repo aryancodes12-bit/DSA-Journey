@@ -1,7 +1,7 @@
 <!-- dsa-sync:start -->
 ## 📊 Progress
 
-✔ **34** problems solved · 🔥 **8** day streak (longest: 8)
+✔ **34** problems solved · 🔥 **9** day streak (longest: 9)
 
 - Easy: 15
 - Medium: 19
@@ -11,7 +11,7 @@
 
 | # | Problem | Difficulty | Language | Date |
 |---|---------|------------|----------|------|
-| 162 | Find Peak Element | Medium | java | 2026-09-17 |
+| 162 | Find Peak Element | Medium | java | 2026-09-18 |
 | 153 | Find Minimum in Rotated Sorted Array | Medium | java | 2026-09-16 |
 | 81 | Search in Rotated Sorted Array II | Medium | java | 2026-09-16 |
 | 33 | Search in Rotated Sorted Array | Medium | java | 2026-09-16 |
@@ -22,5 +22,5 @@
 | 88 | Merge Sorted Array | Easy | java | 2026-09-12 |
 | 56 | Merge Intervals | Medium | java | 2026-09-11 |
 
-_Last synced: 2026-09-17T13:02:48.866Z_
+_Last synced: 2026-09-18T11:24:45.879Z_
 <!-- dsa-sync:end -->
