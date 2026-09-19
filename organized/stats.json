@@ -1,13 +1,20 @@
 {
-  "total": 35,
+  "total": 36,
   "easy": 15,
-  "medium": 20,
+  "medium": 21,
   "hard": 0,
   "currentStreak": 10,
   "longestStreak": 10,
-  "lastSyncedAt": "2026-09-19T15:09:50.476Z",
-  "timeSavedSeconds": 5810.899000000002,
+  "lastSyncedAt": "2026-09-19T19:49:08.146Z",
+  "timeSavedSeconds": 5987.572000000002,
   "recent": [
+    {
+      "id": 1482,
+      "title": "Minimum Number of Days to Make m Bouquets",
+      "difficulty": "Medium",
+      "language": "java",
+      "date": "2026-09-19"
+    },
     {
       "id": 875,
       "title": "Koko Eating Bananas",
@@ -70,13 +77,6 @@
       "difficulty": "Easy",
       "language": "java",
       "date": "2026-09-13"
-    },
-    {
-      "id": 88,
-      "title": "Merge Sorted Array",
-      "difficulty": "Easy",
-      "language": "java",
-      "date": "2026-09-12"
     }
   ]
 }
