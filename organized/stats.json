@@ -1,13 +1,20 @@
 {
-  "total": 37,
+  "total": 38,
   "easy": 15,
-  "medium": 22,
+  "medium": 23,
   "hard": 0,
   "currentStreak": 11,
   "longestStreak": 11,
-  "lastSyncedAt": "2026-09-20T16:13:01.303Z",
-  "timeSavedSeconds": 6164.419000000002,
+  "lastSyncedAt": "2026-09-20T19:08:26.806Z",
+  "timeSavedSeconds": 6341.453000000001,
   "recent": [
+    {
+      "id": 1011,
+      "title": "Capacity To Ship Packages Within D Days",
+      "difficulty": "Medium",
+      "language": "java",
+      "date": "2026-09-20"
+    },
     {
       "id": 1283,
       "title": "Find the Smallest Divisor Given a Threshold",
@@ -70,13 +77,6 @@
       "difficulty": "Easy",
       "language": "java",
       "date": "2026-09-15"
-    },
-    {
-      "id": 704,
-      "title": "Binary Search",
-      "difficulty": "Easy",
-      "language": "java",
-      "date": "2026-09-14"
     }
   ]
 }
