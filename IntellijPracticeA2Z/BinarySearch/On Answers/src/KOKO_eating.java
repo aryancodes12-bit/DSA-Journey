@@ -23,7 +23,6 @@ class Solution {
 }
      */
     public int minEatingSpeed(int[] piles, int h) {
-
         int max = 0;
 
         for (int pile : piles) {
@@ -48,7 +47,6 @@ class Solution {
 
         return low;
     }
-
     long HourCount(int[] piles, int mid) {
 
         long hours = 0;
