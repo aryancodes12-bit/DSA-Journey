@@ -1,13 +1,20 @@
 {
-  "total": 36,
+  "total": 37,
   "easy": 15,
-  "medium": 21,
+  "medium": 22,
   "hard": 0,
-  "currentStreak": 10,
-  "longestStreak": 10,
-  "lastSyncedAt": "2026-09-19T19:49:08.146Z",
-  "timeSavedSeconds": 5987.572000000002,
+  "currentStreak": 11,
+  "longestStreak": 11,
+  "lastSyncedAt": "2026-09-20T16:13:01.303Z",
+  "timeSavedSeconds": 6164.419000000002,
   "recent": [
+    {
+      "id": 1283,
+      "title": "Find the Smallest Divisor Given a Threshold",
+      "difficulty": "Medium",
+      "language": "java",
+      "date": "2026-09-20"
+    },
     {
       "id": 1482,
       "title": "Minimum Number of Days to Make m Bouquets",
@@ -70,13 +77,6 @@
       "difficulty": "Easy",
       "language": "java",
       "date": "2026-09-14"
-    },
-    {
-      "id": 645,
-      "title": "Set Mismatch",
-      "difficulty": "Easy",
-      "language": "java",
-      "date": "2026-09-13"
     }
   ]
 }
