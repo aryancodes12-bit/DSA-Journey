@@ -1,13 +1,20 @@
 {
-  "total": 38,
-  "easy": 15,
+  "total": 39,
+  "easy": 16,
   "medium": 23,
   "hard": 0,
-  "currentStreak": 11,
-  "longestStreak": 11,
-  "lastSyncedAt": "2026-09-20T19:08:26.806Z",
-  "timeSavedSeconds": 6341.453000000001,
+  "currentStreak": 12,
+  "longestStreak": 12,
+  "lastSyncedAt": "2026-09-21T18:26:35.377Z",
+  "timeSavedSeconds": 6517.380000000001,
   "recent": [
+    {
+      "id": 1539,
+      "title": "Kth Missing Positive Number",
+      "difficulty": "Easy",
+      "language": "java",
+      "date": "2026-09-21"
+    },
     {
       "id": 1011,
       "title": "Capacity To Ship Packages Within D Days",
@@ -68,13 +75,6 @@
       "id": 34,
       "title": "Find First and Last Position of Element in Sorted Array",
       "difficulty": "Medium",
-      "language": "java",
-      "date": "2026-09-15"
-    },
-    {
-      "id": 35,
-      "title": "Search Insert Position",
-      "difficulty": "Easy",
       "language": "java",
       "date": "2026-09-15"
     }
