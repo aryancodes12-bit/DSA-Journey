@@ -1,13 +1,20 @@
 {
-  "total": 39,
+  "total": 40,
   "easy": 16,
   "medium": 23,
-  "hard": 0,
-  "currentStreak": 13,
-  "longestStreak": 13,
-  "lastSyncedAt": "2026-09-22T18:22:33.732Z",
-  "timeSavedSeconds": 6517.380000000001,
+  "hard": 1,
+  "currentStreak": 14,
+  "longestStreak": 14,
+  "lastSyncedAt": "2026-09-23T18:23:50.460Z",
+  "timeSavedSeconds": 6693.471000000001,
   "recent": [
+    {
+      "id": 410,
+      "title": "Split Array Largest Sum",
+      "difficulty": "Hard",
+      "language": "java",
+      "date": "2026-09-23"
+    },
     {
       "id": 1539,
       "title": "Kth Missing Positive Number",
@@ -70,13 +77,6 @@
       "difficulty": "Medium",
       "language": "java",
       "date": "2026-09-16"
-    },
-    {
-      "id": 34,
-      "title": "Find First and Last Position of Element in Sorted Array",
-      "difficulty": "Medium",
-      "language": "java",
-      "date": "2026-09-15"
     }
   ]
 }
