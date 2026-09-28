@@ -21,7 +21,7 @@ class Solution {
         return low;
     }
 
-    private boolean canSplit(int[] nums, int k, int maxSum) {
+    public boolean canSplit(int[] nums, int k, int maxSum) {
         int students = 1;
         int currentSum = 0;
 
@@ -33,11 +33,7 @@ class Solution {
                 currentSum = num;
             }
 
-            if (students > k) {
-                return false;
-            }
         }
-
-        return true;
+        return students <= k;
     }
 }
