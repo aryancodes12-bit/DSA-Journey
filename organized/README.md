@@ -1,7 +1,7 @@
 <!-- dsa-sync:start -->
 ## 📊 Progress
 
-✔ **40** problems solved · 🔥 **14** day streak (longest: 14)
+✔ **40** problems solved · 🔥 **1** day streak (longest: 14)
 
 - Easy: 16
 - Medium: 23
@@ -11,7 +11,7 @@
 
 | # | Problem | Difficulty | Language | Date |
 |---|---------|------------|----------|------|
-| 410 | Split Array Largest Sum | Hard | java | 2026-09-23 |
+| 410 | Split Array Largest Sum | Hard | java | 2026-09-28 |
 | 1539 | Kth Missing Positive Number | Easy | java | 2026-09-22 |
 | 1011 | Capacity To Ship Packages Within D Days | Medium | java | 2026-09-20 |
 | 1283 | Find the Smallest Divisor Given a Threshold | Medium | java | 2026-09-20 |
@@ -22,5 +22,5 @@
 | 81 | Search in Rotated Sorted Array II | Medium | java | 2026-09-16 |
 | 33 | Search in Rotated Sorted Array | Medium | java | 2026-09-16 |
 
-_Last synced: 2026-09-23T18:23:50.460Z_
+_Last synced: 2026-09-28T16:15:28.308Z_
 <!-- dsa-sync:end -->
