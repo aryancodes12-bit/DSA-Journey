@@ -1,13 +1,20 @@
 {
-  "total": 40,
+  "total": 41,
   "easy": 16,
   "medium": 23,
-  "hard": 1,
+  "hard": 2,
   "currentStreak": 1,
   "longestStreak": 14,
-  "lastSyncedAt": "2026-09-28T16:15:28.308Z",
-  "timeSavedSeconds": 6693.471000000001,
+  "lastSyncedAt": "2026-09-28T18:38:00.848Z",
+  "timeSavedSeconds": 6868.898000000001,
   "recent": [
+    {
+      "id": 4,
+      "title": "Median of Two Sorted Arrays",
+      "difficulty": "Hard",
+      "language": "java",
+      "date": "2026-09-28"
+    },
     {
       "id": 410,
       "title": "Split Array Largest Sum",
@@ -67,13 +74,6 @@
     {
       "id": 81,
       "title": "Search in Rotated Sorted Array II",
-      "difficulty": "Medium",
-      "language": "java",
-      "date": "2026-09-16"
-    },
-    {
-      "id": 33,
-      "title": "Search in Rotated Sorted Array",
       "difficulty": "Medium",
       "language": "java",
       "date": "2026-09-16"
