@@ -1,16 +1,17 @@
 <!-- dsa-sync:start -->
 ## 📊 Progress
 
-✔ **40** problems solved · 🔥 **1** day streak (longest: 14)
+✔ **41** problems solved · 🔥 **1** day streak (longest: 14)
 
 - Easy: 16
 - Medium: 23
-- Hard: 1
+- Hard: 2
 
 ## Recent Solutions
 
 | # | Problem | Difficulty | Language | Date |
 |---|---------|------------|----------|------|
+| 4 | Median of Two Sorted Arrays | Hard | java | 2026-09-28 |
 | 410 | Split Array Largest Sum | Hard | java | 2026-09-28 |
 | 1539 | Kth Missing Positive Number | Easy | java | 2026-09-22 |
 | 1011 | Capacity To Ship Packages Within D Days | Medium | java | 2026-09-20 |
@@ -20,7 +21,6 @@
 | 162 | Find Peak Element | Medium | java | 2026-09-18 |
 | 153 | Find Minimum in Rotated Sorted Array | Medium | java | 2026-09-16 |
 | 81 | Search in Rotated Sorted Array II | Medium | java | 2026-09-16 |
-| 33 | Search in Rotated Sorted Array | Medium | java | 2026-09-16 |
 
-_Last synced: 2026-09-28T16:15:28.308Z_
+_Last synced: 2026-09-28T18:38:00.848Z_
 <!-- dsa-sync:end -->
