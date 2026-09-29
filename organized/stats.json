@@ -3,21 +3,21 @@
   "easy": 16,
   "medium": 23,
   "hard": 2,
-  "currentStreak": 1,
+  "currentStreak": 2,
   "longestStreak": 14,
-  "lastSyncedAt": "2026-09-28T19:00:21.725Z",
+  "lastSyncedAt": "2026-09-29T18:44:34.190Z",
   "timeSavedSeconds": 6868.898000000001,
   "recent": [
     {
-      "id": 4,
-      "title": "Median of Two Sorted Arrays",
-      "difficulty": "Hard",
-      "language": "java",
-      "date": "2026-09-28"
-    },
-    {
       "id": 410,
       "title": "Split Array Largest Sum",
+      "difficulty": "Hard",
+      "language": "java",
+      "date": "2026-09-29"
+    },
+    {
+      "id": 4,
+      "title": "Median of Two Sorted Arrays",
       "difficulty": "Hard",
       "language": "java",
       "date": "2026-09-28"
