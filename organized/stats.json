@@ -1,13 +1,20 @@
 {
-  "total": 41,
+  "total": 42,
   "easy": 16,
-  "medium": 23,
+  "medium": 24,
   "hard": 2,
   "currentStreak": 3,
   "longestStreak": 14,
-  "lastSyncedAt": "2026-09-30T12:05:03.347Z",
-  "timeSavedSeconds": 6868.898000000001,
+  "lastSyncedAt": "2026-09-30T17:58:11.232Z",
+  "timeSavedSeconds": 7044.657000000001,
   "recent": [
+    {
+      "id": 74,
+      "title": "Search a 2D Matrix",
+      "difficulty": "Medium",
+      "language": "java",
+      "date": "2026-09-30"
+    },
     {
       "id": 4,
       "title": "Median of Two Sorted Arrays",
@@ -67,13 +74,6 @@
     {
       "id": 153,
       "title": "Find Minimum in Rotated Sorted Array",
-      "difficulty": "Medium",
-      "language": "java",
-      "date": "2026-09-16"
-    },
-    {
-      "id": 81,
-      "title": "Search in Rotated Sorted Array II",
       "difficulty": "Medium",
       "language": "java",
       "date": "2026-09-16"
