@@ -1,55 +1,58 @@
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
-        int m=nums1.length; int n=nums2.length;
-       int i=0; int j=0;
-       int n1=(m+n);
-       int ind2= n1/2;
-       int ind1=(n1/2)-1;
-       int cnt=0;
-       int el1=-1; int el2=-1;
-       while(i<m && j<n){
-        if(nums1[i]<nums2[j]){
-            if(cnt==ind1){
-                el1=nums1[i];
-            }
-            if(cnt==ind2){
-                el2=nums1[i];
-            }
-            cnt++; i++;
-        }
-        else{
-            if(cnt==ind1){
-                el1=nums2[j];
-            }
-            if(cnt==ind2){
-                el2=nums2[j];
-            }
-            cnt++; j++;
-        }
+       int a=nums1.length; int b=nums2.length;
+       int n=a+b;
+       if(a>b){
+        return findMedianSortedArrays(nums2,nums1);
        }
-       while(i<m){
-        if(cnt==ind1){
-                el1=nums1[i];
+       int low=0;
+       int high=a;
+       int left=(a+b+1)/2;
+       while(low<=high){
+        int mid1=(low+high)/2;
+int mid2=left-mid1;
+int l1 = Integer.MIN_VALUE;
+            int l2 = Integer.MIN_VALUE;
+            int r1 = Integer.MAX_VALUE;
+            int r2 = Integer.MAX_VALUE;
+            if(mid1<a){
+                r1=nums1[mid1];
             }
-            if(cnt==ind2){
-                el2=nums1[i];
+            if(mid2<b){
+                r2=nums2[mid2];
             }
-            cnt++; i++;
-       }
-        while(j<n){
-            if(cnt==ind1){
-                el1=nums2[j];
+             if (mid1 - 1 >= 0) {
+                l1 = nums1[mid1 - 1];
             }
-            if(cnt==ind2){
-                el2=nums2[j];
+
+        
+            if (mid2 - 1 >= 0) {
+                l2 = nums2[mid2 - 1];
             }
-            cnt++; j++;
+              if (l1 <= r2 && l2 <= r1) {
+
+                // Total length is odd
+                if ((a+ b) % 2 == 1) {
+                    return Math.max(l1, l2);
+                }
+
+                // Total length is even
+                return (Math.max(l1, l2) +
+                        Math.min(r1, r2)) / 2.0;
+            }
+
+            // We have taken too many elements from a
+            else if (l1 > r2) {
+                high = mid1 - 1;
+            }
+
+            // We need more elements from a
+            else {
+                low = mid1 + 1;
+            }
         }
-        if(n1%2==1){
-            return el2;
-        }
-        else{
-            return (double)(el1+el2)/2.0;
-        }
+
+        return 0.0;
+       
     }
 }
