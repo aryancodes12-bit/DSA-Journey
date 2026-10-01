@@ -1,16 +1,17 @@
 <!-- dsa-sync:start -->
 ## 📊 Progress
 
-✔ **42** problems solved · 🔥 **3** day streak (longest: 14)
+✔ **43** problems solved · 🔥 **4** day streak (longest: 14)
 
 - Easy: 16
-- Medium: 24
+- Medium: 25
 - Hard: 2
 
 ## Recent Solutions
 
 | # | Problem | Difficulty | Language | Date |
 |---|---------|------------|----------|------|
+| 240 | Search a 2D Matrix II | Medium | java | 2026-10-01 |
 | 74 | Search a 2D Matrix | Medium | java | 2026-09-30 |
 | 4 | Median of Two Sorted Arrays | Hard | java | 2026-09-30 |
 | 410 | Split Array Largest Sum | Hard | java | 2026-09-29 |
@@ -20,7 +21,6 @@
 | 1482 | Minimum Number of Days to Make m Bouquets | Medium | java | 2026-09-19 |
 | 875 | Koko Eating Bananas | Medium | java | 2026-09-19 |
 | 162 | Find Peak Element | Medium | java | 2026-09-18 |
-| 153 | Find Minimum in Rotated Sorted Array | Medium | java | 2026-09-16 |
 
-_Last synced: 2026-09-30T17:58:11.232Z_
+_Last synced: 2026-10-01T13:24:36.831Z_
 <!-- dsa-sync:end -->
