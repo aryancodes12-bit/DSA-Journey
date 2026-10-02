@@ -1,16 +1,17 @@
 <!-- dsa-sync:start -->
 ## 📊 Progress
 
-✔ **43** problems solved · 🔥 **4** day streak (longest: 14)
+✔ **44** problems solved · 🔥 **5** day streak (longest: 14)
 
 - Easy: 16
-- Medium: 25
+- Medium: 26
 - Hard: 2
 
 ## Recent Solutions
 
 | # | Problem | Difficulty | Language | Date |
 |---|---------|------------|----------|------|
+| 1901 | Find a Peak Element II | Medium | java | 2026-10-02 |
 | 240 | Search a 2D Matrix II | Medium | java | 2026-10-01 |
 | 74 | Search a 2D Matrix | Medium | java | 2026-09-30 |
 | 4 | Median of Two Sorted Arrays | Hard | java | 2026-09-30 |
@@ -20,7 +21,6 @@
 | 1283 | Find the Smallest Divisor Given a Threshold | Medium | java | 2026-09-20 |
 | 1482 | Minimum Number of Days to Make m Bouquets | Medium | java | 2026-09-19 |
 | 875 | Koko Eating Bananas | Medium | java | 2026-09-19 |
-| 162 | Find Peak Element | Medium | java | 2026-09-18 |
 
-_Last synced: 2026-10-01T13:24:36.831Z_
+_Last synced: 2026-10-02T19:04:47.358Z_
 <!-- dsa-sync:end -->
