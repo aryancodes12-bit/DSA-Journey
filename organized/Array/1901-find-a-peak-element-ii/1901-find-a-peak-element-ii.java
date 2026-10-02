@@ -1,17 +1,33 @@
 class Solution {
+    public int maxEl(int [][]mat,int n,int m,int col){
+        int max=-1;
+        int index=-1;
+        for(int i=0;i<n;i++){
+            if(mat[i][col]>max){
+                max=mat[i][col];
+                index=i;
+            }
+        }
+        return index;
+    }
     public int[] findPeakGrid(int[][] mat) {
         int n=mat.length;  int m=mat[0].length;
-        for(int i=0;i<n;i++){
-for(int j=0;j<mat[i].length;j++){
-    if((i == 0 || mat[i][j] > mat[i - 1][j]) &&
-                    (i == n - 1 || mat[i][j] > mat[i + 1][j]) &&
-                    (j == 0 || mat[i][j] > mat[i][j - 1]) &&
-                    (j == m - 1 || mat[i][j] > mat[i][j + 1])){
-        return new int[] {i,j};
-    }
+       int low=0; int high=m-1;
+       while(low<=high){
+        int mid=(low+high)/2;
+        int row=maxEl(mat,n,m,mid);
+        int left=mid-1>=0?mat[row][mid-1]:-1;
+        int right=mid+1<m?mat[row][mid+1]:-1;
+if(mat[row][mid]>left && mat[row][mid]>right){
+    return new int[] {row,mid};
 }
-
-        }
-        return new int[] {-1,-1};
+else if(mat[row][mid]<left){
+    high=mid-1;
+}
+else{
+    low=mid+1;
+}
+       }
+       return new int[]{-1,-1};
     }
 }
