@@ -18,7 +18,7 @@ I aim to upload at least one code file daily to stay consistent.
 
 
 <!-- dsa-sync:start -->
-📊 **43** problems solved · 🔥 **4** day streak (longest: 14)
-Easy: 16 · Medium: 25 · Hard: 2
+📊 **44** problems solved · 🔥 **5** day streak (longest: 14)
+Easy: 16 · Medium: 26 · Hard: 2
 📁 [Full progress log →](organized/README.md)
 <!-- dsa-sync:end -->
