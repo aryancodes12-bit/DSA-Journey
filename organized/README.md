@@ -1,9 +1,9 @@
 <!-- dsa-sync:start -->
 ## 📊 Progress
 
-✔ **46** problems solved · 🔥 **1** day streak (longest: 14)
+✔ **47** problems solved · 🔥 **1** day streak (longest: 14)
 
-- Easy: 18
+- Easy: 19
 - Medium: 26
 - Hard: 2
 
@@ -11,6 +11,7 @@
 
 | # | Problem | Difficulty | Language | Date |
 |---|---------|------------|----------|------|
+| 13 | Roman to Integer | Easy | java | 2026-10-06 |
 | 1614 | Maximum Nesting Depth of the Parentheses | Easy | java | 2026-10-06 |
 | 1021 | Remove Outermost Parentheses | Easy | java | 2026-10-06 |
 | 240 | Search a 2D Matrix II | Medium | java | 2026-10-02 |
@@ -20,7 +21,6 @@
 | 410 | Split Array Largest Sum | Hard | java | 2026-09-29 |
 | 1539 | Kth Missing Positive Number | Easy | java | 2026-09-22 |
 | 1011 | Capacity To Ship Packages Within D Days | Medium | java | 2026-09-20 |
-| 1283 | Find the Smallest Divisor Given a Threshold | Medium | java | 2026-09-20 |
 
-_Last synced: 2026-10-06T18:56:28.470Z_
+_Last synced: 2026-10-06T19:13:47.717Z_
 <!-- dsa-sync:end -->
