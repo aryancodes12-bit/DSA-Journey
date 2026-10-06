@@ -1,9 +1,9 @@
 <!-- dsa-sync:start -->
 ## 📊 Progress
 
-✔ **44** problems solved · 🔥 **5** day streak (longest: 14)
+✔ **45** problems solved · 🔥 **1** day streak (longest: 14)
 
-- Easy: 16
+- Easy: 17
 - Medium: 26
 - Hard: 2
 
@@ -11,6 +11,7 @@
 
 | # | Problem | Difficulty | Language | Date |
 |---|---------|------------|----------|------|
+| 1021 | Remove Outermost Parentheses | Easy | java | 2026-10-06 |
 | 240 | Search a 2D Matrix II | Medium | java | 2026-10-02 |
 | 1901 | Find a Peak Element II | Medium | java | 2026-10-02 |
 | 74 | Search a 2D Matrix | Medium | java | 2026-09-30 |
@@ -20,7 +21,6 @@
 | 1011 | Capacity To Ship Packages Within D Days | Medium | java | 2026-09-20 |
 | 1283 | Find the Smallest Divisor Given a Threshold | Medium | java | 2026-09-20 |
 | 1482 | Minimum Number of Days to Make m Bouquets | Medium | java | 2026-09-19 |
-| 875 | Koko Eating Bananas | Medium | java | 2026-09-19 |
 
-_Last synced: 2026-10-02T19:36:49.887Z_
+_Last synced: 2026-10-06T18:14:06.394Z_
 <!-- dsa-sync:end -->
