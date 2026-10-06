@@ -1,13 +1,20 @@
 {
-  "total": 44,
-  "easy": 16,
+  "total": 45,
+  "easy": 17,
   "medium": 26,
   "hard": 2,
-  "currentStreak": 5,
+  "currentStreak": 1,
   "longestStreak": 14,
-  "lastSyncedAt": "2026-10-02T19:36:49.887Z",
-  "timeSavedSeconds": 7395.367000000001,
+  "lastSyncedAt": "2026-10-06T18:14:06.394Z",
+  "timeSavedSeconds": 7571.232000000001,
   "recent": [
+    {
+      "id": 1021,
+      "title": "Remove Outermost Parentheses",
+      "difficulty": "Easy",
+      "language": "java",
+      "date": "2026-10-06"
+    },
     {
       "id": 240,
       "title": "Search a 2D Matrix II",
@@ -67,13 +74,6 @@
     {
       "id": 1482,
       "title": "Minimum Number of Days to Make m Bouquets",
-      "difficulty": "Medium",
-      "language": "java",
-      "date": "2026-09-19"
-    },
-    {
-      "id": 875,
-      "title": "Koko Eating Bananas",
       "difficulty": "Medium",
       "language": "java",
       "date": "2026-09-19"
