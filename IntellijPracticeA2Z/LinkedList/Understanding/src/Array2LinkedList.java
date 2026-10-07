@@ -26,6 +26,11 @@ for(int i=1;i<arr.length;i++){
     public static void main(String[] args) {
     int[] arr={2,3,4,5,6};
     Node y=convertToLL(arr);
-        System.out.println(y.data);
+  Node temp=y;
+  while(temp !=null){
+      System.out.printf(temp.data+"->");
+      temp=temp.next;
+  }
+      //  System.out.println(y.data);
     }
 }
