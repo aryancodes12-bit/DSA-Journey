@@ -1,3 +1,4 @@
+//in this we are checking that head is not lost during traversal
 class Node{
     int data;
     Node next;
@@ -12,7 +13,7 @@ class Node{
 };
 public class Array2LinkedList {
     private static Node convertToLL(int [] arr){
-        if (arr == null || arr.length == 0) return null;
+        if (arr == null || arr.length == 0) return null;  //edge case
         Node head=new Node(arr[0]);
 Node mover=head;
 for(int i=1;i<arr.length;i++){
