@@ -1,13 +1,20 @@
 {
-  "total": 47,
+  "total": 48,
   "easy": 19,
-  "medium": 26,
+  "medium": 27,
   "hard": 2,
-  "currentStreak": 1,
+  "currentStreak": 2,
   "longestStreak": 14,
-  "lastSyncedAt": "2026-10-06T19:13:47.717Z",
-  "timeSavedSeconds": 7922.616,
+  "lastSyncedAt": "2026-10-07T16:23:51.182Z",
+  "timeSavedSeconds": 8098.545,
   "recent": [
+    {
+      "id": 237,
+      "title": "Delete Node in a Linked List",
+      "difficulty": "Medium",
+      "language": "java",
+      "date": "2026-10-07"
+    },
     {
       "id": 13,
       "title": "Roman to Integer",
@@ -70,13 +77,6 @@
       "difficulty": "Easy",
       "language": "java",
       "date": "2026-09-22"
-    },
-    {
-      "id": 1011,
-      "title": "Capacity To Ship Packages Within D Days",
-      "difficulty": "Medium",
-      "language": "java",
-      "date": "2026-09-20"
     }
   ]
 }
