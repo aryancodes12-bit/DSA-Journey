@@ -1,13 +1,20 @@
 {
-  "total": 48,
+  "total": 49,
   "easy": 19,
-  "medium": 27,
+  "medium": 28,
   "hard": 2,
   "currentStreak": 2,
   "longestStreak": 14,
-  "lastSyncedAt": "2026-10-10T08:13:11.890Z",
-  "timeSavedSeconds": 8098.545,
+  "lastSyncedAt": "2026-10-10T09:51:10.759Z",
+  "timeSavedSeconds": 8207.263,
   "recent": [
+    {
+      "id": 8,
+      "title": "String to Integer (atoi)",
+      "difficulty": "Medium",
+      "language": "java",
+      "date": "2026-10-10"
+    },
     {
       "id": 13,
       "title": "Roman to Integer",
@@ -70,13 +77,6 @@
       "difficulty": "Hard",
       "language": "java",
       "date": "2026-09-29"
-    },
-    {
-      "id": 1539,
-      "title": "Kth Missing Positive Number",
-      "difficulty": "Easy",
-      "language": "java",
-      "date": "2026-09-22"
     }
   ]
 }
