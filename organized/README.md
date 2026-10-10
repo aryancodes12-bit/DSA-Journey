@@ -1,7 +1,7 @@
 <!-- dsa-sync:start -->
 ## 📊 Progress
 
-✔ **48** problems solved · 🔥 **1** day streak (longest: 14)
+✔ **48** problems solved · 🔥 **2** day streak (longest: 14)
 
 - Easy: 19
 - Medium: 27
@@ -11,8 +11,8 @@
 
 | # | Problem | Difficulty | Language | Date |
 |---|---------|------------|----------|------|
+| 13 | Roman to Integer | Easy | java | 2026-10-10 |
 | 237 | Delete Node in a Linked List | Medium | java | 2026-10-09 |
-| 13 | Roman to Integer | Easy | java | 2026-10-06 |
 | 1614 | Maximum Nesting Depth of the Parentheses | Easy | java | 2026-10-06 |
 | 1021 | Remove Outermost Parentheses | Easy | java | 2026-10-06 |
 | 240 | Search a 2D Matrix II | Medium | java | 2026-10-02 |
@@ -22,5 +22,5 @@
 | 410 | Split Array Largest Sum | Hard | java | 2026-09-29 |
 | 1539 | Kth Missing Positive Number | Easy | java | 2026-09-22 |
 
-_Last synced: 2026-10-09T18:00:39.935Z_
+_Last synced: 2026-10-10T08:13:11.890Z_
 <!-- dsa-sync:end -->
